@@ -1,0 +1,23 @@
+Name: 'Program:EM01_MML'
+Type: FolderType
+Children:
+- Name: out_MoverAtStation03
+  Id: g=f0d7e76911c4347a1e41c650c408064a
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM01_MML.out_MoverAtStation03"
+- Name: in_RQDispatchMoverST03
+  Id: g=770a2aebe4c5823e413929f309911e51
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EM01_MML.in_RQDispatchMoverST03"

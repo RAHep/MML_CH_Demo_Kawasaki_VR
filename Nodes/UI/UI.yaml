@@ -846,7 +846,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Unfified Robot Demo - Robot Handler Lite"}
+        Value: {"LocaleId":"en-US","Text":"MML Demo - VR - Operator Training"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size

@@ -1,0 +1,180 @@
+Name: 'Program:UN01'
+Id: g=2f4849349a6d88c05daf7c5c708fdac5
+Type: FolderType
+Children:
+- Name: ModeStateModel
+  Type: raM_Opr_ISATR880002_2015
+  DataType: raM_Opr_ISATR880002_2015
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "20cad2db43601cd85532b4842b45985c",
+     "Namespace": 10
+    },
+    "Body": {
+     "Cmd_Abort": false,
+     "Cmd_Clear": false,
+     "Cmd_eMode": 0,
+     "Cmd_Hold": false,
+     "Cmd_Reset": false,
+     "Cmd_Start": false,
+     "Cmd_StateComplete": false,
+     "Cmd_Stop": false,
+     "Cmd_Suspend": false,
+     "Cmd_UnHold": false,
+     "Cmd_UnSuspend": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "Out_bMode": 0,
+     "Out_bState": 0,
+     "Out_eMode": 0,
+     "Out_eState": 0,
+     "raM_Opr_ISATR880002_2015": false,
+     "Sts_Aborted": false,
+     "Sts_Aborting": false,
+     "Sts_bEnabledStates": 0,
+     "Sts_Clearing": false,
+     "Sts_Complete": false,
+     "Sts_Completing": false,
+     "Sts_EN": false,
+     "Sts_EO": false,
+     "Sts_ER": false,
+     "Sts_ERR": 0,
+     "Sts_Execute": false,
+     "Sts_EXERR": 0,
+     "Sts_Held": false,
+     "Sts_Holding": false,
+     "Sts_Idle": false,
+     "Sts_ModeLocked": false,
+     "Sts_Resetting": false,
+     "Sts_Starting": false,
+     "Sts_Stopped": false,
+     "Sts_Stopping": false,
+     "Sts_Suspended": false,
+     "Sts_Suspending": false,
+     "Sts_UnHolding": false,
+     "Sts_UnSuspending": false
+    }
+   }
+  Children:
+  - Name: Out_bState
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [32]
+    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UN01.ModeStateModel.Out_bState"
+    - Name: OriginalDataType
+      Type: BaseDataVariableType
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"Id":6}
+  - Name: Sts_bEnabledStates
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [32]
+    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:UN01.ModeStateModel.Sts_bEnabledStates"
+    - Name: OriginalDataType
+      Type: BaseDataVariableType
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"Id":6}
+- Name: OCmd_Clear
+  Id: g=255b3c4720c6b4d0c148ee6f89101001
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.OCmd_Clear"
+- Name: OCmd_Hold
+  Id: g=bc190d021506ae7387b9a4f45eec1590
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.OCmd_Hold"
+- Name: OCmd_Reset
+  Id: g=8d241381eac73d356d28226966c9d865
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.OCmd_Reset"
+- Name: OCmd_Start
+  Id: g=f48aabec90ea9faf0d43cdc0730d16d8
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.OCmd_Start"
+- Name: OCmd_Stop
+  Id: g=d88c10558ddfaf61e849b2e98163db1d
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.OCmd_Stop"
+- Name: OCmd_UnHold
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.OCmd_UnHold"
+- Name: Out_bState
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.Out_bState"
+- Name: Sts_sMode
+  Id: g=8e7f2ac6fc3b7fb9ec4bfe724c8914d1
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.Sts_sMode"
+- Name: Sts_sState
+  Id: g=1d8d176f9043752003104f6c74a96333
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:UN01.Sts_sState"

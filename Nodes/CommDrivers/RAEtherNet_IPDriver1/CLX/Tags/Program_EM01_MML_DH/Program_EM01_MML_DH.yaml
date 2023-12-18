@@ -1,684 +1,9 @@
-Name: ns=7;VariableTypes
+Name: 'Program:EM01_MML_DH'
 Type: FolderType
 Children:
-- Name: raM_UDT_Opr_EventCreate_Members
-  Id: g=c8bf504fcf4fb7b9d556493f36c741e4
-  Supertype: TagStructure
-  DataType: raM_UDT_Opr_EventCreate_Members
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "d2f044dbbe860123a19c2f12e8579253",
-     "Namespace": 10
-    },
-    "Body": {
-     "Action": 0,
-     "Category": 0,
-     "EventTime_D": [0,0,0,0,0,0,0],
-     "EventTime_L": 0,
-     "ID": 0,
-     "Message": "",
-     "Type": 0,
-     "Value": 0
-    }
-   }
-  Children:
-  - Name: Action
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Action"
-  - Name: Category
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Category"
-  - Name: EventTime_D
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    ValueRank: OneDimension
-    ArrayDimensions: [7]
-    Value: [0,0,0,0,0,0,0]
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EventTime_D"
-  - Name: EventTime_L
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EventTime_L"
-  - Name: ID
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ID"
-  - Name: Message
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Message"
-  - Name: Type
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Type"
-  - Name: Value
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Value"
-- Name: raM_UDT_Opr_EventList_Members
-  Id: g=f0bdaef5ee08a846ba06ff56334e8754
-  Supertype: TagStructure
-  DataType: raM_UDT_Opr_EventList_Members
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "c34034b90b7d6896f68634fc191f6d62",
-     "Namespace": 10
-    },
-    "Body": {
-     "Count": 0,
-     "Event": {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "d2f044dbbe860123a19c2f12e8579253",
-       "Namespace": 10
-      },
-      "Body": {
-       "Action": 0,
-       "Category": 0,
-       "EventTime_D": [0,0,0,0,0,0,0],
-       "EventTime_L": 0,
-       "ID": 0,
-       "Message": "",
-       "Type": 0,
-       "Value": 0
-      }
-     }
-    }
-   }
-  Children:
-  - Name: Count
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Count"
-  - Name: Event
-    Type: raM_UDT_Opr_EventCreate_Members
-    DataType: raM_UDT_Opr_EventCreate_Members
-    Value: 
-     {
-      "TypeId": {
-       "IdType": 2,
-       "Id": "d2f044dbbe860123a19c2f12e8579253",
-       "Namespace": 10
-      },
-      "Body": {
-       "Action": 0,
-       "Category": 0,
-       "EventTime_D": [0,0,0,0,0,0,0],
-       "EventTime_L": 0,
-       "ID": 0,
-       "Message": "",
-       "Type": 0,
-       "Value": 0
-      }
-     }
-    Children:
-    - Name: Action
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Action"
-    - Name: Category
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Category"
-    - Name: EventTime_D
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      ValueRank: OneDimension
-      ArrayDimensions: [7]
-      Value: [0,0,0,0,0,0,0]
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EventTime_D"
-    - Name: EventTime_L
-      Type: RAEtherNetIPTag
-      DataType: Int64
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "EventTime_L"
-    - Name: ID
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "ID"
-    - Name: Message
-      Type: RAEtherNetIPTag
-      DataType: String
-      Value: ""
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Message"
-    - Name: Type
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Type"
-    - Name: Value
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Value: 0
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Value"
-- Name: raM_Opr_ISATR880002_2015
-  Id: g=caa383a5e38610e62b24383ce6983307
-  Supertype: TagStructure
-  DataType: raM_Opr_ISATR880002_2015
-  ValueRank: Any
-  Value: 
-   {
-    "TypeId": {
-     "IdType": 2,
-     "Id": "20cad2db43601cd85532b4842b45985c",
-     "Namespace": 10
-    },
-    "Body": {
-     "Cmd_Abort": false,
-     "Cmd_Clear": false,
-     "Cmd_eMode": 0,
-     "Cmd_Hold": false,
-     "Cmd_Reset": false,
-     "Cmd_Start": false,
-     "Cmd_StateComplete": false,
-     "Cmd_Stop": false,
-     "Cmd_Suspend": false,
-     "Cmd_UnHold": false,
-     "Cmd_UnSuspend": false,
-     "EnableIn": false,
-     "EnableOut": false,
-     "Out_bMode": 0,
-     "Out_bState": 0,
-     "Out_eMode": 0,
-     "Out_eState": 0,
-     "raM_Opr_ISATR880002_2015": false,
-     "Sts_Aborted": false,
-     "Sts_Aborting": false,
-     "Sts_bEnabledStates": 0,
-     "Sts_Clearing": false,
-     "Sts_Complete": false,
-     "Sts_Completing": false,
-     "Sts_EN": false,
-     "Sts_EO": false,
-     "Sts_ER": false,
-     "Sts_ERR": 0,
-     "Sts_Execute": false,
-     "Sts_EXERR": 0,
-     "Sts_Held": false,
-     "Sts_Holding": false,
-     "Sts_Idle": false,
-     "Sts_ModeLocked": false,
-     "Sts_Resetting": false,
-     "Sts_Starting": false,
-     "Sts_Stopped": false,
-     "Sts_Stopping": false,
-     "Sts_Suspended": false,
-     "Sts_Suspending": false,
-     "Sts_UnHolding": false,
-     "Sts_UnSuspending": false
-    }
-   }
-  Children:
-  - Name: Cmd_Abort
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Abort"
-  - Name: Cmd_Clear
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Clear"
-  - Name: Cmd_eMode
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_eMode"
-  - Name: Cmd_Hold
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Hold"
-  - Name: Cmd_Reset
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Reset"
-  - Name: Cmd_Start
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Start"
-  - Name: Cmd_StateComplete
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_StateComplete"
-  - Name: Cmd_Stop
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Stop"
-  - Name: Cmd_Suspend
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_Suspend"
-  - Name: Cmd_UnHold
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_UnHold"
-  - Name: Cmd_UnSuspend
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Cmd_UnSuspend"
-  - Name: EnableIn
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableIn"
-  - Name: EnableOut
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "EnableOut"
-  - Name: Out_bMode
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Out_bMode"
-  - Name: Out_bState
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Out_bState"
-  - Name: Out_eMode
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Out_eMode"
-  - Name: Out_eState
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Out_eState"
-  - Name: raM_Opr_ISATR880002_2015
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "raM_Opr_ISATR880002_2015"
-  - Name: Sts_Aborted
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Aborted"
-  - Name: Sts_Aborting
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Aborting"
-  - Name: Sts_bEnabledStates
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_bEnabledStates"
-  - Name: Sts_Clearing
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Clearing"
-  - Name: Sts_Complete
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Complete"
-  - Name: Sts_Completing
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Completing"
-  - Name: Sts_EN
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_EN"
-  - Name: Sts_EO
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_EO"
-  - Name: Sts_ER
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_ER"
-  - Name: Sts_ERR
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_ERR"
-  - Name: Sts_Execute
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Execute"
-  - Name: Sts_EXERR
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_EXERR"
-  - Name: Sts_Held
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Held"
-  - Name: Sts_Holding
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Holding"
-  - Name: Sts_Idle
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Idle"
-  - Name: Sts_ModeLocked
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_ModeLocked"
-  - Name: Sts_Resetting
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Resetting"
-  - Name: Sts_Starting
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Starting"
-  - Name: Sts_Stopped
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Stopped"
-  - Name: Sts_Stopping
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Stopping"
-  - Name: Sts_Suspended
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Suspended"
-  - Name: Sts_Suspending
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_Suspending"
-  - Name: Sts_UnHolding
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_UnHolding"
-  - Name: Sts_UnSuspending
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Value: false
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Sts_UnSuspending"
-- Name: raM_UDT_MM_Dvc_Status
-  Id: g=67168b8748f502e3c2beeb46e5f2a8c3
-  Supertype: TagStructure
+- Name: Sts
+  Type: raM_UDT_MM_Dvc_Status
   DataType: raM_UDT_MM_Dvc_Status
-  ValueRank: Any
   Value: 
    {
     "TypeId": {
@@ -1167,7 +492,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Alarm"
+      Value: "Program:EM01_MML_DH.Sts.Alarm"
   - Name: Available
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1176,7 +501,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Available"
+      Value: "Program:EM01_MML_DH.Sts.Available"
   - Name: Configuring
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1185,7 +510,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Configuring"
+      Value: "Program:EM01_MML_DH.Sts.Configuring"
   - Name: Connected
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1194,7 +519,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Connected"
+      Value: "Program:EM01_MML_DH.Sts.Connected"
   - Name: Connecting
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1203,7 +528,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Connecting"
+      Value: "Program:EM01_MML_DH.Sts.Connecting"
   - Name: Disconnected
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1212,7 +537,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Disconnected"
+      Value: "Program:EM01_MML_DH.Sts.Disconnected"
   - Name: Disconnecting
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1221,7 +546,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Disconnecting"
+      Value: "Program:EM01_MML_DH.Sts.Disconnecting"
   - Name: ErrorCode
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -1230,7 +555,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "ErrorCode"
+      Value: "Program:EM01_MML_DH.Sts.ErrorCode"
   - Name: EventLog
     Type: raM_UDT_Opr_EventList_Members
     DataType: raM_UDT_Opr_EventList_Members
@@ -1278,7 +603,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[0].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -1309,7 +634,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1318,7 +643,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1329,7 +654,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -1338,7 +663,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1347,7 +672,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -1356,7 +681,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1365,7 +690,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1374,7 +699,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[0].Event.Value"
     - Name: 1
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -1415,7 +740,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[1].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -1446,7 +771,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1455,7 +780,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1466,7 +791,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -1475,7 +800,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1484,7 +809,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -1493,7 +818,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1502,7 +827,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1511,7 +836,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[1].Event.Value"
     - Name: 2
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -1552,7 +877,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[2].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -1583,7 +908,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1592,7 +917,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1603,7 +928,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -1612,7 +937,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1621,7 +946,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -1630,7 +955,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1639,7 +964,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1648,7 +973,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[2].Event.Value"
     - Name: 3
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -1689,7 +1014,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[3].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -1720,7 +1045,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1729,7 +1054,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1740,7 +1065,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -1749,7 +1074,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1758,7 +1083,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -1767,7 +1092,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1776,7 +1101,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1785,7 +1110,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[3].Event.Value"
     - Name: 4
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -1826,7 +1151,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[4].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -1857,7 +1182,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1866,7 +1191,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1877,7 +1202,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -1886,7 +1211,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1895,7 +1220,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -1904,7 +1229,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1913,7 +1238,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -1922,7 +1247,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[4].Event.Value"
     - Name: 5
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -1963,7 +1288,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[5].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -1994,7 +1319,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2003,7 +1328,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2014,7 +1339,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2023,7 +1348,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2032,7 +1357,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2041,7 +1366,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2050,7 +1375,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2059,7 +1384,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[5].Event.Value"
     - Name: 6
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -2100,7 +1425,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[6].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2131,7 +1456,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2140,7 +1465,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2151,7 +1476,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2160,7 +1485,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2169,7 +1494,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2178,7 +1503,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2187,7 +1512,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2196,7 +1521,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[6].Event.Value"
     - Name: 7
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -2237,7 +1562,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.EventLog[7].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2268,7 +1593,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2277,7 +1602,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2288,7 +1613,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2297,7 +1622,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2306,7 +1631,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2315,7 +1640,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2324,7 +1649,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2333,7 +1658,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.EventLog[7].Event.Value"
   - Name: ExtendedErrorCode
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -2342,7 +1667,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "ExtendedErrorCode"
+      Value: "Program:EM01_MML_DH.Sts.ExtendedErrorCode"
   - Name: Faulted
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -2351,7 +1676,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Faulted"
+      Value: "Program:EM01_MML_DH.Sts.Faulted"
   - Name: FaultLog
     Type: raM_UDT_Opr_EventList_Members
     DataType: raM_UDT_Opr_EventList_Members
@@ -2399,7 +1724,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2430,7 +1755,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2439,7 +1764,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2450,7 +1775,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2459,7 +1784,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2468,7 +1793,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2477,7 +1802,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2486,7 +1811,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2495,7 +1820,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[0].Event.Value"
     - Name: 1
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -2536,7 +1861,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2567,7 +1892,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2576,7 +1901,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2587,7 +1912,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2596,7 +1921,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2605,7 +1930,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2614,7 +1939,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2623,7 +1948,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2632,7 +1957,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[1].Event.Value"
     - Name: 2
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -2673,7 +1998,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2704,7 +2029,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2713,7 +2038,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2724,7 +2049,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2733,7 +2058,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2742,7 +2067,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2751,7 +2076,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2760,7 +2085,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2769,7 +2094,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[2].Event.Value"
     - Name: 3
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -2810,7 +2135,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2841,7 +2166,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2850,7 +2175,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2861,7 +2186,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -2870,7 +2195,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2879,7 +2204,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -2888,7 +2213,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2897,7 +2222,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2906,7 +2231,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[3].Event.Value"
     - Name: 4
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -2947,7 +2272,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -2978,7 +2303,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2987,7 +2312,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -2998,7 +2323,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -3007,7 +2332,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3016,7 +2341,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -3025,7 +2350,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3034,7 +2359,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3043,7 +2368,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[4].Event.Value"
     - Name: 5
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -3084,7 +2409,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -3115,7 +2440,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3124,7 +2449,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3135,7 +2460,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -3144,7 +2469,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3153,7 +2478,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -3162,7 +2487,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3171,7 +2496,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3180,7 +2505,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[5].Event.Value"
     - Name: 6
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -3221,7 +2546,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -3252,7 +2577,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3261,7 +2586,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3272,7 +2597,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -3281,7 +2606,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3290,7 +2615,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -3299,7 +2624,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3308,7 +2633,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3317,7 +2642,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[6].Event.Value"
     - Name: 7
       Type: raM_UDT_Opr_EventList_Members
       DataType: raM_UDT_Opr_EventList_Members
@@ -3358,7 +2683,7 @@ Children:
         - Name: SymbolName
           Type: BaseDataVariableType
           DataType: String
-          Value: "Count"
+          Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Count"
       - Name: Event
         Type: raM_UDT_Opr_EventCreate_Members
         DataType: raM_UDT_Opr_EventCreate_Members
@@ -3389,7 +2714,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Action"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.Action"
         - Name: Category
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3398,7 +2723,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Category"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.Category"
         - Name: EventTime_D
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3409,7 +2734,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_D"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.EventTime_D"
         - Name: EventTime_L
           Type: RAEtherNetIPTag
           DataType: Int64
@@ -3418,7 +2743,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "EventTime_L"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.EventTime_L"
         - Name: ID
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3427,7 +2752,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "ID"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.ID"
         - Name: Message
           Type: RAEtherNetIPTag
           DataType: String
@@ -3436,7 +2761,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Message"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.Message"
         - Name: Type
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3445,7 +2770,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Type"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.Type"
         - Name: Value
           Type: RAEtherNetIPTag
           DataType: Int32
@@ -3454,7 +2779,7 @@ Children:
           - Name: SymbolName
             Type: BaseDataVariableType
             DataType: String
-            Value: "Value"
+            Value: "Program:EM01_MML_DH.Sts.FaultLog[7].Event.Value"
   - Name: FaultMessage
     Type: RAEtherNetIPTag
     DataType: String
@@ -3463,7 +2788,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "FaultMessage"
+      Value: "Program:EM01_MML_DH.Sts.FaultMessage"
   - Name: FirstAlarm
     Type: raM_UDT_Opr_EventCreate_Members
     DataType: raM_UDT_Opr_EventCreate_Members
@@ -3494,7 +2819,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Action"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.Action"
     - Name: Category
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3503,7 +2828,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Category"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.Category"
     - Name: EventTime_D
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3514,7 +2839,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "EventTime_D"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.EventTime_D"
     - Name: EventTime_L
       Type: RAEtherNetIPTag
       DataType: Int64
@@ -3523,7 +2848,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "EventTime_L"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.EventTime_L"
     - Name: ID
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3532,7 +2857,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "ID"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.ID"
     - Name: Message
       Type: RAEtherNetIPTag
       DataType: String
@@ -3541,7 +2866,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Message"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.Message"
     - Name: Type
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3550,7 +2875,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Type"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.Type"
     - Name: Value
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3559,7 +2884,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Value"
+        Value: "Program:EM01_MML_DH.Sts.FirstAlarm.Value"
   - Name: FirstFault
     Type: raM_UDT_Opr_EventCreate_Members
     DataType: raM_UDT_Opr_EventCreate_Members
@@ -3590,7 +2915,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Action"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.Action"
     - Name: Category
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3599,7 +2924,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Category"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.Category"
     - Name: EventTime_D
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3610,7 +2935,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "EventTime_D"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.EventTime_D"
     - Name: EventTime_L
       Type: RAEtherNetIPTag
       DataType: Int64
@@ -3619,7 +2944,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "EventTime_L"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.EventTime_L"
     - Name: ID
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3628,7 +2953,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "ID"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.ID"
     - Name: Message
       Type: RAEtherNetIPTag
       DataType: String
@@ -3637,7 +2962,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Message"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.Message"
     - Name: Type
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3646,7 +2971,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Type"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.Type"
     - Name: Value
       Type: RAEtherNetIPTag
       DataType: Int32
@@ -3655,7 +2980,7 @@ Children:
       - Name: SymbolName
         Type: BaseDataVariableType
         DataType: String
-        Value: "Value"
+        Value: "Program:EM01_MML_DH.Sts.FirstFault.Value"
   - Name: HighLevelNodeControllerOperational
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3664,7 +2989,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "HighLevelNodeControllerOperational"
+      Value: "Program:EM01_MML_DH.Sts.HighLevelNodeControllerOperational"
   - Name: Idle
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3673,7 +2998,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Idle"
+      Value: "Program:EM01_MML_DH.Sts.Idle"
   - Name: Initializing
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3682,7 +3007,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Initializing"
+      Value: "Program:EM01_MML_DH.Sts.Initializing"
   - Name: NodeControllersOperational
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3691,7 +3016,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "NodeControllersOperational"
+      Value: "Program:EM01_MML_DH.Sts.NodeControllersOperational"
   - Name: Physical
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3700,7 +3025,7 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Physical"
+      Value: "Program:EM01_MML_DH.Sts.Physical"
   - Name: Virtual
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -3709,4 +3034,4 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Virtual"
+      Value: "Program:EM01_MML_DH.Sts.Virtual"
