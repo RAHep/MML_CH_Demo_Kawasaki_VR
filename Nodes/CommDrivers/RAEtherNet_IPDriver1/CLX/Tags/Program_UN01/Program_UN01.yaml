@@ -150,6 +150,7 @@ Children:
     DataType: String
     Value: "Program:UN01.OCmd_UnHold"
 - Name: Out_bState
+  Id: g=1f630bd7fe88f0f93861ba43961f985d
   Type: RAEtherNetIPTag
   DataType: Int32
   Value: 0

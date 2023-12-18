@@ -234,6 +234,23 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Alias_Unit}/ModeStateModel/Out_bState[1]"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{NodeId:ns=10;g=1f630bd7-fe88-f0f9-3861-ba43961f985d}.9"
     - Name: Reset
       Type: Button
       Children:
@@ -464,6 +481,23 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#6b6b6b"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/MML_CH_Demo_Kawasaki_VR/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:UN01/Out_bState.2"
     - Name: Start
       Type: Button
       Children:
@@ -694,6 +728,23 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#6b6b6b"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/MML_CH_Demo_Kawasaki_VR/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:UN01/Out_bState.4"
     - Name: Hold
       Type: Button
       Children:
@@ -924,6 +975,48 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#6b6b6b"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/MML_CH_Demo_Kawasaki_VR/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:UN01/Out_bState.6"
+          - Name: Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Int16
+                Value: 50
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Int16
+                Value: 100
     - Name: unHold
       Type: Button
       Children:
@@ -1180,6 +1273,48 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#6b6b6b"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/MML_CH_Demo_Kawasaki_VR/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:UN01/Out_bState.11"
+          - Name: Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Int16
+                Value: 50
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Int16
+                Value: 100
     - Name: Stop
       Type: Button
       Children:
@@ -1410,6 +1545,40 @@ Children:
                 Type: BaseDataVariableType
                 DataType: Color
                 Value: "#6b6b6b"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/MML_CH_Demo_Kawasaki_VR/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:UN01/Out_bState.4"
+              - Name: Source1
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/MML_CH_Demo_Kawasaki_VR/CommDrivers/RAEtherNet_IPDriver1/CLX/Tags/Program&:UN01/Out_bState.6"
     - Name: Alias_Unit
       Type: Alias
       DataType: NodeId
@@ -1419,52 +1588,6 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":2,"Id":"2f4849349a6d88c05daf7c5c708fdac5","Namespace":10}
-  - Name: WebBrowser1
-    Type: WebBrowser
-    Children:
-    - Name: URL
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "http://192.168.1.1:9080"
-    - Class: Reference
-      Target: ns=3;i=354
-      Direction: Forward
-    - Class: Reference
-      Target: ns=3;i=356
-      Direction: Forward
-    - Class: Reference
-      Target: ns=3;i=358
-      Direction: Forward
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 300.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 300.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 70.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
   - Name: PulseButton1
     Type: Button
     WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1477,12 +1600,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
+      Value: 458.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 319.0
+      Value: 300.0
     - Name: Appearance
       Type: BaseVariableType
       DataType: String
@@ -1711,12 +1834,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 61.0
+      Value: 110.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 62.0
+      Value: 151.0
     - Name: TextPosition
       Type: BaseDataVariableType
       DataType: Position
