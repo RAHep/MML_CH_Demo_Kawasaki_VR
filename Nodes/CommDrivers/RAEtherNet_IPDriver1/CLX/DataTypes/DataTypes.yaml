@@ -1,0 +1,1576 @@
+Name: ns=7;DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: raM_Opr_ISATR880002_2015
+  Id: g=91a9b5be05eeda2268e0f860c6219f1b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raM_Opr_ISATR880002_2015",
+    "DataType": {
+     "IdType": 2,
+     "Id": "91a9b5be05eeda2268e0f860c6219f1b",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Cmd_Abort",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_Clear",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_eMode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Cmd_Hold",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_Reset",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_Start",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_StateComplete",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_Stop",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_Suspend",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_UnHold",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Cmd_UnSuspend",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Out_bMode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Out_bState",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Out_eMode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Out_eState",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "raM_Opr_ISATR880002_2015",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Aborted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Aborting",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_bEnabledStates",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_Clearing",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Complete",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Completing",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_EN",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_EO",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_ER",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_Execute",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Sts_Held",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Holding",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Idle",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_ModeLocked",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Resetting",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Starting",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Stopped",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Stopping",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Suspended",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_Suspending",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_UnHolding",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Sts_UnSuspending",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raM_Opr_ISATR880002_2015"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_Geometry
+  Id: g=ab2e96ce7c087bb230108398ac8a0039
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_Geometry",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ab2e96ce7c087bb230108398ac8a0039",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "_1",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [10],
+      "Value": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_Geometry"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Jog
+  Id: g=97f41ce53bce3a979089ead14b293c83
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Jog",
+    "DataType": {
+     "IdType": 2,
+     "Id": "97f41ce53bce3a979089ead14b293c83",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Neg",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Pos",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Jog"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_RH
+  Id: g=b26b15a72ef9c517465e938dc69d3303
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_RH",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b26b15a72ef9c517465e938dc69d3303",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Cmd",
+      "DataType": {
+       "IdType": 2,
+       "Id": "c13cb184e56ff2020e1acf6d949cec3c",
+       "Namespace": 10
+      }
+     },{
+      "Name": "Par",
+      "DataType": {
+       "IdType": 2,
+       "Id": "688c5e15178fcb9ef6cd67d2c0d96753",
+       "Namespace": 10
+      }
+     },{
+      "Name": "Sts",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ee545d2071369fec4a9b648cb6d62483",
+       "Namespace": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_RH"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_RH_Cmd
+  Id: g=c13cb184e56ff2020e1acf6d949cec3c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_RH_Cmd",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c13cb184e56ff2020e1acf6d949cec3c",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "AbortAllAxes",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ChangeToolframe",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ChangeWorkframe",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HmiInhibitControl",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HomeAllAxes",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HomeSingleAxis",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Initialize",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "JogAxesCartesian",
+      "DataType": {
+       "IdType": 2,
+       "Id": "97f41ce53bce3a979089ead14b293c83",
+       "Namespace": 10
+      }
+     },{
+      "Name": "JogAxesJoints",
+      "DataType": {
+       "IdType": 2,
+       "Id": "97f41ce53bce3a979089ead14b293c83",
+       "Namespace": 10
+      }
+     },{
+      "Name": "OpMode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ReadAllGains",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ReadSingleGains",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "RedefinePositionJointAxes",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "ReleaseAllBrakes",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ReleaseSingleAxisBrake",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Reset",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SetAllGains",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "SetSingleGains",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "StopAllAxes",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ToolFrameId",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "UploadConfiguration",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "WorkframeId",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_RH_Cmd"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_Limit
+  Id: g=913e6c7fb62b15b4d28f8b1e6ee9c61c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_Limit",
+    "DataType": {
+     "IdType": 2,
+     "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Disable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "Max",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Min",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_Limit"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_Home
+  Id: g=1dfdd6f9db8cb112ce245b679ab3f02d
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_Home",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Acceleration",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Deceleration",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Direction",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "HomeTorqueLevel",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "MaxTravel",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Mode",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Offset",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Position",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PositionError",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "ReturnSpeed",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Sequence",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "SwitchConf",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_Home"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_StopAbort
+  Id: g=e4025b0192b25574ec09db05dbb1c7bb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_StopAbort",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "DecelRate",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Jerk",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_StopAbort"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Dynamic
+  Id: g=6534dcf31783c54c8ed788465a6c6723
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Dynamic",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6534dcf31783c54c8ed788465a6c6723",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "VectorAccel",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VectorDecel",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VectorVelocity",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Dynamic"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_RedefinePos
+  Id: g=1a448bdbd618911b9ad7c0b441e31569
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_RedefinePos",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1a448bdbd618911b9ad7c0b441e31569",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Position",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PositionSelect",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Type",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_RedefinePos"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_RH_Par
+  Id: g=688c5e15178fcb9ef6cd67d2c0d96753
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_RH_Par",
+    "DataType": {
+     "IdType": 2,
+     "Id": "688c5e15178fcb9ef6cd67d2c0d96753",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "AbortCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+       "Namespace": 10
+      }
+     },{
+      "Name": "GainsCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e1b5eb863124d1f382086b59c9e948fc",
+       "Namespace": 10
+      }
+     },{
+      "Name": "GeometriCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "ab2e96ce7c087bb230108398ac8a0039",
+       "Namespace": 10
+      }
+     },{
+      "Name": "HomeCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+       "Namespace": 10
+      }
+     },{
+      "Name": "JogCartesianCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "5e8de5773e280f8ddb21b80713722eb2",
+       "Namespace": 10
+      }
+     },{
+      "Name": "JogJointCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "5e8de5773e280f8ddb21b80713722eb2",
+       "Namespace": 10
+      }
+     },{
+      "Name": "LimitCartesianCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+       "Namespace": 10
+      }
+     },{
+      "Name": "LimitJointCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+       "Namespace": 10
+      }
+     },{
+      "Name": "RedefinePosCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "1a448bdbd618911b9ad7c0b441e31569",
+       "Namespace": 10
+      }
+     },{
+      "Name": "StopCfg",
+      "DataType": {
+       "IdType": 2,
+       "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+       "Namespace": 10
+      }
+     },{
+      "Name": "Toolframe",
+      "DataType": {
+       "IdType": 2,
+       "Id": "2bf0bb81befff817fcaae526f2de419a",
+       "Namespace": 10
+      }
+     },{
+      "Name": "Workframe",
+      "DataType": {
+       "IdType": 2,
+       "Id": "2bf0bb81befff817fcaae526f2de419a",
+       "Namespace": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_RH_Par"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_RH_Sts
+  Id: g=ee545d2071369fec4a9b648cb6d62483
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_RH_Sts",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ee545d2071369fec4a9b648cb6d62483",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "ActiveCartesianAxes",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "ActiveHomig",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ActiveJointAxes",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "AllAxesAborting",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllAxesDisabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllAxesEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllAxesHomed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllAxesStopping",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllBrakesReleased",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllCartesianReadyForJog",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllJointReadyForEnable",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllJointReadyForHoming",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AllJointReadyForJog",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "AxisHomed",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "BrakeControl",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "CartesianAxisActualPosition",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": [0.0,0.0,0.0,0.0,0.0,0.0]
+     },{
+      "Name": "CartesianAxisActualVelocity",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": [0.0,0.0,0.0,0.0,0.0,0.0]
+     },{
+      "Name": "ExternalMotion",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "FaultCode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Faulted",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "FaultExtendedCode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "FaultType",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "HmiControlInhibited",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "HmiTab",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Idle",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "JogCartesian",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "JogJoint",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "JointDiagnostic",
+      "DataType": {
+       "Id": 12
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": ["","","","","",""]
+     },{
+      "Name": "JointsAxisActualPosition",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": [0.0,0.0,0.0,0.0,0.0,0.0]
+     },{
+      "Name": "JointsAxisActualVelocity",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [6],
+      "Value": [0.0,0.0,0.0,0.0,0.0,0.0]
+     },{
+      "Name": "NoMotion",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "NotReadyForOpMode",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "PassiveHomig",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ReadGainsDone",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "RobotDynamics",
+      "DataType": {
+       "IdType": 2,
+       "Id": "6534dcf31783c54c8ed788465a6c6723",
+       "Namespace": 10
+      }
+     },{
+      "Name": "SetGainsDone",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "SingleBrakesReleased",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "State",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ToolframeChangeEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "ToolframeID",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TransformEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "UploadConfigurationOK",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "WorkframeChangeEnabled",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     },{
+      "Name": "WorkframeID",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      },
+      "Value": false
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_RH_Sts"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_Gain
+  Id: g=e1b5eb863124d1f382086b59c9e948fc
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_Gain",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e1b5eb863124d1f382086b59c9e948fc",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "AccelerationFeedforward",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "AdaptiveTuningConfiguration",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "LoadObserverBandwidth",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "LoadObserverConfiguration",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "PositionBandwidth",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PositionErrorTolerance",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PositionIntegratorBandwidth",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "PositionIntegratorHold",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     },{
+      "Name": "TorqueLimitNegative",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "TorqueLimitPositive",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "TorqueLowPassFilterBandwidth",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "TorqueNotchFilterFrequency",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VelocityBandwidth",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VelocityErrorTolerance",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VelocityFeedforward",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VelocityIntegratorBandwidth",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "VelocityIntegratorHold",
+      "DataType": {
+       "Id": 2
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_Gain"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raT_Rbt_UDT_Cfg_Jog
+  Id: g=5e8de5773e280f8ddb21b80713722eb2
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raT_Rbt_UDT_Cfg_Jog",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5e8de5773e280f8ddb21b80713722eb2",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "AccelRate",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "DecelRate",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Jerk",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raT_Rbt_UDT_Cfg_Jog"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: DYNAMICS_DATA
+  Id: g=a67e0d5435958d38d84e5e6797ea4c3c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "DYNAMICS_DATA",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a67e0d5435958d38d84e5e6797ea4c3c",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "Acceleration",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "AccelerationJerk",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Deceleration",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "DecelerationJerk",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "OrientationAcceleration",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "OrientationDeceleration",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "OrientationSpeed",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Profile",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "TimeUnits",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "UnitsMode",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"DYNAMICS_DATA"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: PATH_DATA
+  Id: g=38e34fc1ad5b69902c2a60c31ad581d1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "PATH_DATA",
+    "DataType": {
+     "IdType": 2,
+     "Id": "38e34fc1ad5b69902c2a60c31ad581d1",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "CommandToleranceLinear",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "InterpolationType",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "MoveType",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Position",
+      "DataType": {
+       "Id": 10
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [9],
+      "Value": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+     },{
+      "Name": "RobotConfiguration",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TerminationType",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "TurnsCounters",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4],
+      "Value": [0,0,0,0]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"PATH_DATA"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: POSITION_DATA
+  Id: g=2bf0bb81befff817fcaae526f2de419a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "POSITION_DATA",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2bf0bb81befff817fcaae526f2de419a",
+     "Namespace": 10
+    },
+    "Fields": [{
+      "Name": "ID",
+      "DataType": {
+       "Id": 6
+      },
+      "Value": 0
+     },{
+      "Name": "Rx",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Ry",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Rz",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "X",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Y",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     },{
+      "Name": "Z",
+      "DataType": {
+       "Id": 10
+      },
+      "Value": 0.0
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"POSITION_DATA"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

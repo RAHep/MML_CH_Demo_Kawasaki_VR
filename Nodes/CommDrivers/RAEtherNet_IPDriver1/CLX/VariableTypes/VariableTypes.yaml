@@ -1,0 +1,5372 @@
+Name: ns=7;VariableTypes
+Type: FolderType
+Children:
+- Name: raM_Opr_ISATR880002_2015
+  Id: g=109e0147d6ce89b3d9a00b6a137600c9
+  Supertype: TagStructure
+  DataType: raM_Opr_ISATR880002_2015
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "91a9b5be05eeda2268e0f860c6219f1b",
+     "Namespace": 10
+    },
+    "Body": {
+     "Cmd_Abort": false,
+     "Cmd_Clear": false,
+     "Cmd_eMode": 0,
+     "Cmd_Hold": false,
+     "Cmd_Reset": false,
+     "Cmd_Start": false,
+     "Cmd_StateComplete": false,
+     "Cmd_Stop": false,
+     "Cmd_Suspend": false,
+     "Cmd_UnHold": false,
+     "Cmd_UnSuspend": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "Out_bMode": 0,
+     "Out_bState": 0,
+     "Out_eMode": 0,
+     "Out_eState": 0,
+     "raM_Opr_ISATR880002_2015": false,
+     "Sts_Aborted": false,
+     "Sts_Aborting": false,
+     "Sts_bEnabledStates": 0,
+     "Sts_Clearing": false,
+     "Sts_Complete": false,
+     "Sts_Completing": false,
+     "Sts_EN": false,
+     "Sts_EO": false,
+     "Sts_ER": false,
+     "Sts_ERR": 0,
+     "Sts_Execute": false,
+     "Sts_EXERR": 0,
+     "Sts_Held": false,
+     "Sts_Holding": false,
+     "Sts_Idle": false,
+     "Sts_ModeLocked": false,
+     "Sts_Resetting": false,
+     "Sts_Starting": false,
+     "Sts_Stopped": false,
+     "Sts_Stopping": false,
+     "Sts_Suspended": false,
+     "Sts_Suspending": false,
+     "Sts_UnHolding": false,
+     "Sts_UnSuspending": false
+    }
+   }
+  Children:
+  - Name: Cmd_Abort
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Abort"
+  - Name: Cmd_Clear
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Clear"
+  - Name: Cmd_eMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_eMode"
+  - Name: Cmd_Hold
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Hold"
+  - Name: Cmd_Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Reset"
+  - Name: Cmd_Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Start"
+  - Name: Cmd_StateComplete
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_StateComplete"
+  - Name: Cmd_Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Stop"
+  - Name: Cmd_Suspend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Suspend"
+  - Name: Cmd_UnHold
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_UnHold"
+  - Name: Cmd_UnSuspend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_UnSuspend"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableOut"
+  - Name: Out_bMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Out_bMode"
+  - Name: Out_bState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Out_bState"
+  - Name: Out_eMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Out_eMode"
+  - Name: Out_eState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Out_eState"
+  - Name: raM_Opr_ISATR880002_2015
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "raM_Opr_ISATR880002_2015"
+  - Name: Sts_Aborted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Aborted"
+  - Name: Sts_Aborting
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Aborting"
+  - Name: Sts_bEnabledStates
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_bEnabledStates"
+  - Name: Sts_Clearing
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Clearing"
+  - Name: Sts_Complete
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Complete"
+  - Name: Sts_Completing
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Completing"
+  - Name: Sts_EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_EN"
+  - Name: Sts_EO
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_EO"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_ER"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_ERR"
+  - Name: Sts_Execute
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Execute"
+  - Name: Sts_EXERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_EXERR"
+  - Name: Sts_Held
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Held"
+  - Name: Sts_Holding
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Holding"
+  - Name: Sts_Idle
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Idle"
+  - Name: Sts_ModeLocked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_ModeLocked"
+  - Name: Sts_Resetting
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Resetting"
+  - Name: Sts_Starting
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Starting"
+  - Name: Sts_Stopped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Stopped"
+  - Name: Sts_Stopping
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Stopping"
+  - Name: Sts_Suspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Suspended"
+  - Name: Sts_Suspending
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_Suspending"
+  - Name: Sts_UnHolding
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_UnHolding"
+  - Name: Sts_UnSuspending
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sts_UnSuspending"
+- Name: raT_Rbt_UDT_Cfg_Geometry
+  Id: g=a8ddc76e83e5a8ced1109700e7d19859
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_Geometry
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ab2e96ce7c087bb230108398ac8a0039",
+     "Namespace": 10
+    },
+    "Body": {
+     "_1": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    }
+   }
+  Children:
+  - Name: _1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [10]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_1"
+- Name: raT_Rbt_UDT_Jog
+  Id: g=a62e12f52a0688a9e6df4670029bf3c4
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Jog
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "97f41ce53bce3a979089ead14b293c83",
+     "Namespace": 10
+    },
+    "Body": {
+     "Neg": false,
+     "Pos": false
+    }
+   }
+  Children:
+  - Name: Neg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Neg"
+  - Name: Pos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pos"
+- Name: raT_Rbt_UDT_RH
+  Id: g=e2aed86c796c87fe618a5b420ebc15b1
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_RH
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "b26b15a72ef9c517465e938dc69d3303",
+     "Namespace": 10
+    },
+    "Body": {
+     "Cmd": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "c13cb184e56ff2020e1acf6d949cec3c",
+       "Namespace": 10
+      },
+      "Body": {
+       "AbortAllAxes": false,
+       "ChangeToolframe": false,
+       "ChangeWorkframe": false,
+       "HmiInhibitControl": false,
+       "HomeAllAxes": false,
+       "HomeSingleAxis": 0,
+       "Initialize": false,
+       "JogAxesCartesian": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "97f41ce53bce3a979089ead14b293c83",
+         "Namespace": 10
+        },
+        "Body": {
+         "Neg": false,
+         "Pos": false
+        }
+       },
+       "JogAxesJoints": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "97f41ce53bce3a979089ead14b293c83",
+         "Namespace": 10
+        },
+        "Body": {
+         "Neg": false,
+         "Pos": false
+        }
+       },
+       "OpMode": 0,
+       "ReadAllGains": false,
+       "ReadSingleGains": 0,
+       "RedefinePositionJointAxes": 0,
+       "ReleaseAllBrakes": false,
+       "ReleaseSingleAxisBrake": 0,
+       "Reset": false,
+       "SetAllGains": false,
+       "SetSingleGains": 0,
+       "StopAllAxes": false,
+       "ToolFrameId": 0,
+       "UploadConfiguration": false,
+       "WorkframeId": 0
+      }
+     },
+     "Par": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "688c5e15178fcb9ef6cd67d2c0d96753",
+       "Namespace": 10
+      },
+      "Body": {
+       "AbortCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+         "Namespace": 10
+        },
+        "Body": {
+         "DecelRate": 0.0,
+         "Jerk": 0.0
+        }
+       },
+       "GainsCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e1b5eb863124d1f382086b59c9e948fc",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelerationFeedforward": 0.0,
+         "AdaptiveTuningConfiguration": 0,
+         "LoadObserverBandwidth": 0.0,
+         "LoadObserverConfiguration": 0,
+         "PositionBandwidth": 0.0,
+         "PositionErrorTolerance": 0.0,
+         "PositionIntegratorBandwidth": 0.0,
+         "PositionIntegratorHold": 0,
+         "TorqueLimitNegative": 0.0,
+         "TorqueLimitPositive": 0.0,
+         "TorqueLowPassFilterBandwidth": 0.0,
+         "TorqueNotchFilterFrequency": 0.0,
+         "VelocityBandwidth": 0.0,
+         "VelocityErrorTolerance": 0.0,
+         "VelocityFeedforward": 0.0,
+         "VelocityIntegratorBandwidth": 0.0,
+         "VelocityIntegratorHold": 0
+        }
+       },
+       "GeometriCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ab2e96ce7c087bb230108398ac8a0039",
+         "Namespace": 10
+        },
+        "Body": {
+         "_1": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+        }
+       },
+       "HomeCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+         "Namespace": 10
+        },
+        "Body": {
+         "Acceleration": 0.0,
+         "Deceleration": 0.0,
+         "Direction": 0,
+         "HomeTorqueLevel": 0.0,
+         "MaxTravel": 0.0,
+         "Mode": 0,
+         "Offset": 0.0,
+         "Position": 0.0,
+         "PositionError": 0.0,
+         "ReturnSpeed": 0.0,
+         "Sequence": 0,
+         "Speed": 0.0,
+         "SwitchConf": 0
+        }
+       },
+       "JogCartesianCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5e8de5773e280f8ddb21b80713722eb2",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelRate": 0.0,
+         "DecelRate": 0.0,
+         "Jerk": 0.0,
+         "Speed": 0.0
+        }
+       },
+       "JogJointCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5e8de5773e280f8ddb21b80713722eb2",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelRate": 0.0,
+         "DecelRate": 0.0,
+         "Jerk": 0.0,
+         "Speed": 0.0
+        }
+       },
+       "LimitCartesianCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+         "Namespace": 10
+        },
+        "Body": {
+         "Disable": false,
+         "Max": 0.0,
+         "Min": 0.0
+        }
+       },
+       "LimitJointCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+         "Namespace": 10
+        },
+        "Body": {
+         "Disable": false,
+         "Max": 0.0,
+         "Min": 0.0
+        }
+       },
+       "RedefinePosCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "1a448bdbd618911b9ad7c0b441e31569",
+         "Namespace": 10
+        },
+        "Body": {
+         "Position": 0.0,
+         "PositionSelect": 0,
+         "Type": 0
+        }
+       },
+       "StopCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+         "Namespace": 10
+        },
+        "Body": {
+         "DecelRate": 0.0,
+         "Jerk": 0.0
+        }
+       },
+       "Toolframe": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "2bf0bb81befff817fcaae526f2de419a",
+         "Namespace": 10
+        },
+        "Body": {
+         "ID": 0,
+         "Rx": 0.0,
+         "Ry": 0.0,
+         "Rz": 0.0,
+         "X": 0.0,
+         "Y": 0.0,
+         "Z": 0.0
+        }
+       },
+       "Workframe": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "2bf0bb81befff817fcaae526f2de419a",
+         "Namespace": 10
+        },
+        "Body": {
+         "ID": 0,
+         "Rx": 0.0,
+         "Ry": 0.0,
+         "Rz": 0.0,
+         "X": 0.0,
+         "Y": 0.0,
+         "Z": 0.0
+        }
+       }
+      }
+     },
+     "Sts": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ee545d2071369fec4a9b648cb6d62483",
+       "Namespace": 10
+      },
+      "Body": {
+       "ActiveCartesianAxes": 0,
+       "ActiveHomig": false,
+       "ActiveJointAxes": 0,
+       "AllAxesAborting": false,
+       "AllAxesDisabled": false,
+       "AllAxesEnabled": false,
+       "AllAxesHomed": false,
+       "AllAxesStopping": false,
+       "AllBrakesReleased": false,
+       "AllCartesianReadyForJog": false,
+       "AllJointReadyForEnable": false,
+       "AllJointReadyForHoming": false,
+       "AllJointReadyForJog": false,
+       "AxisHomed": 0,
+       "BrakeControl": false,
+       "CartesianAxisActualPosition": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "CartesianAxisActualVelocity": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "ExternalMotion": false,
+       "FaultCode": 0,
+       "Faulted": false,
+       "FaultExtendedCode": 0,
+       "FaultType": 0,
+       "HmiControlInhibited": false,
+       "HmiTab": 0,
+       "Idle": false,
+       "JogCartesian": false,
+       "JogJoint": false,
+       "JointDiagnostic": ["","","","","",""],
+       "JointsAxisActualPosition": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "JointsAxisActualVelocity": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "NoMotion": false,
+       "NotReadyForOpMode": false,
+       "PassiveHomig": false,
+       "ReadGainsDone": 0,
+       "RobotDynamics": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "6534dcf31783c54c8ed788465a6c6723",
+         "Namespace": 10
+        },
+        "Body": {
+         "VectorAccel": 0.0,
+         "VectorDecel": 0.0,
+         "VectorVelocity": 0.0
+        }
+       },
+       "SetGainsDone": 0,
+       "SingleBrakesReleased": 0,
+       "State": 0,
+       "ToolframeChangeEnabled": false,
+       "ToolframeID": 0,
+       "TransformEnabled": false,
+       "UploadConfigurationOK": false,
+       "WorkframeChangeEnabled": false,
+       "WorkframeID": 0,
+       "ZeroSpeed": false
+      }
+     }
+    }
+   }
+  Children:
+  - Name: Cmd
+    Type: raT_Rbt_UDT_RH_Cmd
+    DataType: raT_Rbt_UDT_RH_Cmd
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "c13cb184e56ff2020e1acf6d949cec3c",
+       "Namespace": 10
+      },
+      "Body": {
+       "AbortAllAxes": false,
+       "ChangeToolframe": false,
+       "ChangeWorkframe": false,
+       "HmiInhibitControl": false,
+       "HomeAllAxes": false,
+       "HomeSingleAxis": 0,
+       "Initialize": false,
+       "JogAxesCartesian": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "97f41ce53bce3a979089ead14b293c83",
+         "Namespace": 10
+        },
+        "Body": {
+         "Neg": false,
+         "Pos": false
+        }
+       },
+       "JogAxesJoints": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "97f41ce53bce3a979089ead14b293c83",
+         "Namespace": 10
+        },
+        "Body": {
+         "Neg": false,
+         "Pos": false
+        }
+       },
+       "OpMode": 0,
+       "ReadAllGains": false,
+       "ReadSingleGains": 0,
+       "RedefinePositionJointAxes": 0,
+       "ReleaseAllBrakes": false,
+       "ReleaseSingleAxisBrake": 0,
+       "Reset": false,
+       "SetAllGains": false,
+       "SetSingleGains": 0,
+       "StopAllAxes": false,
+       "ToolFrameId": 0,
+       "UploadConfiguration": false,
+       "WorkframeId": 0
+      }
+     }
+    Children:
+    - Name: AbortAllAxes
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AbortAllAxes"
+    - Name: ChangeToolframe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ChangeToolframe"
+    - Name: ChangeWorkframe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ChangeWorkframe"
+    - Name: HmiInhibitControl
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HmiInhibitControl"
+    - Name: HomeAllAxes
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HomeAllAxes"
+    - Name: HomeSingleAxis
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HomeSingleAxis"
+    - Name: Initialize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Initialize"
+    - Name: JogAxesCartesian
+      Type: raT_Rbt_UDT_Jog
+      DataType: raT_Rbt_UDT_Jog
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "97f41ce53bce3a979089ead14b293c83",
+         "Namespace": 10
+        },
+        "Body": {
+         "Neg": false,
+         "Pos": false
+        }
+       }
+      Children:
+      - Name: Neg
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Neg"
+      - Name: Pos
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pos"
+    - Name: JogAxesJoints
+      Type: raT_Rbt_UDT_Jog
+      DataType: raT_Rbt_UDT_Jog
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "97f41ce53bce3a979089ead14b293c83",
+         "Namespace": 10
+        },
+        "Body": {
+         "Neg": false,
+         "Pos": false
+        }
+       }
+      Children:
+      - Name: Neg
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Neg"
+      - Name: Pos
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pos"
+    - Name: OpMode
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OpMode"
+    - Name: ReadAllGains
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ReadAllGains"
+    - Name: ReadSingleGains
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ReadSingleGains"
+    - Name: RedefinePositionJointAxes
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RedefinePositionJointAxes"
+    - Name: ReleaseAllBrakes
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ReleaseAllBrakes"
+    - Name: ReleaseSingleAxisBrake
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ReleaseSingleAxisBrake"
+    - Name: Reset
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Reset"
+    - Name: SetAllGains
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetAllGains"
+    - Name: SetSingleGains
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetSingleGains"
+    - Name: StopAllAxes
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "StopAllAxes"
+    - Name: ToolFrameId
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ToolFrameId"
+    - Name: UploadConfiguration
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UploadConfiguration"
+    - Name: WorkframeId
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WorkframeId"
+  - Name: Par
+    Type: raT_Rbt_UDT_RH_Par
+    DataType: raT_Rbt_UDT_RH_Par
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "688c5e15178fcb9ef6cd67d2c0d96753",
+       "Namespace": 10
+      },
+      "Body": {
+       "AbortCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+         "Namespace": 10
+        },
+        "Body": {
+         "DecelRate": 0.0,
+         "Jerk": 0.0
+        }
+       },
+       "GainsCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e1b5eb863124d1f382086b59c9e948fc",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelerationFeedforward": 0.0,
+         "AdaptiveTuningConfiguration": 0,
+         "LoadObserverBandwidth": 0.0,
+         "LoadObserverConfiguration": 0,
+         "PositionBandwidth": 0.0,
+         "PositionErrorTolerance": 0.0,
+         "PositionIntegratorBandwidth": 0.0,
+         "PositionIntegratorHold": 0,
+         "TorqueLimitNegative": 0.0,
+         "TorqueLimitPositive": 0.0,
+         "TorqueLowPassFilterBandwidth": 0.0,
+         "TorqueNotchFilterFrequency": 0.0,
+         "VelocityBandwidth": 0.0,
+         "VelocityErrorTolerance": 0.0,
+         "VelocityFeedforward": 0.0,
+         "VelocityIntegratorBandwidth": 0.0,
+         "VelocityIntegratorHold": 0
+        }
+       },
+       "GeometriCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ab2e96ce7c087bb230108398ac8a0039",
+         "Namespace": 10
+        },
+        "Body": {
+         "_1": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+        }
+       },
+       "HomeCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+         "Namespace": 10
+        },
+        "Body": {
+         "Acceleration": 0.0,
+         "Deceleration": 0.0,
+         "Direction": 0,
+         "HomeTorqueLevel": 0.0,
+         "MaxTravel": 0.0,
+         "Mode": 0,
+         "Offset": 0.0,
+         "Position": 0.0,
+         "PositionError": 0.0,
+         "ReturnSpeed": 0.0,
+         "Sequence": 0,
+         "Speed": 0.0,
+         "SwitchConf": 0
+        }
+       },
+       "JogCartesianCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5e8de5773e280f8ddb21b80713722eb2",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelRate": 0.0,
+         "DecelRate": 0.0,
+         "Jerk": 0.0,
+         "Speed": 0.0
+        }
+       },
+       "JogJointCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5e8de5773e280f8ddb21b80713722eb2",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelRate": 0.0,
+         "DecelRate": 0.0,
+         "Jerk": 0.0,
+         "Speed": 0.0
+        }
+       },
+       "LimitCartesianCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+         "Namespace": 10
+        },
+        "Body": {
+         "Disable": false,
+         "Max": 0.0,
+         "Min": 0.0
+        }
+       },
+       "LimitJointCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+         "Namespace": 10
+        },
+        "Body": {
+         "Disable": false,
+         "Max": 0.0,
+         "Min": 0.0
+        }
+       },
+       "RedefinePosCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "1a448bdbd618911b9ad7c0b441e31569",
+         "Namespace": 10
+        },
+        "Body": {
+         "Position": 0.0,
+         "PositionSelect": 0,
+         "Type": 0
+        }
+       },
+       "StopCfg": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+         "Namespace": 10
+        },
+        "Body": {
+         "DecelRate": 0.0,
+         "Jerk": 0.0
+        }
+       },
+       "Toolframe": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "2bf0bb81befff817fcaae526f2de419a",
+         "Namespace": 10
+        },
+        "Body": {
+         "ID": 0,
+         "Rx": 0.0,
+         "Ry": 0.0,
+         "Rz": 0.0,
+         "X": 0.0,
+         "Y": 0.0,
+         "Z": 0.0
+        }
+       },
+       "Workframe": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "2bf0bb81befff817fcaae526f2de419a",
+         "Namespace": 10
+        },
+        "Body": {
+         "ID": 0,
+         "Rx": 0.0,
+         "Ry": 0.0,
+         "Rz": 0.0,
+         "X": 0.0,
+         "Y": 0.0,
+         "Z": 0.0
+        }
+       }
+      }
+     }
+    Children:
+    - Name: AbortCfg
+      Type: raT_Rbt_UDT_Cfg_StopAbort
+      DataType: raT_Rbt_UDT_Cfg_StopAbort
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+         "Namespace": 10
+        },
+        "Body": {
+         "DecelRate": 0.0,
+         "Jerk": 0.0
+        }
+       }
+      Children:
+      - Name: DecelRate
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DecelRate"
+      - Name: Jerk
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Jerk"
+    - Name: GainsCfg
+      Type: raT_Rbt_UDT_Cfg_Gain
+      DataType: raT_Rbt_UDT_Cfg_Gain
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e1b5eb863124d1f382086b59c9e948fc",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelerationFeedforward": 0.0,
+         "AdaptiveTuningConfiguration": 0,
+         "LoadObserverBandwidth": 0.0,
+         "LoadObserverConfiguration": 0,
+         "PositionBandwidth": 0.0,
+         "PositionErrorTolerance": 0.0,
+         "PositionIntegratorBandwidth": 0.0,
+         "PositionIntegratorHold": 0,
+         "TorqueLimitNegative": 0.0,
+         "TorqueLimitPositive": 0.0,
+         "TorqueLowPassFilterBandwidth": 0.0,
+         "TorqueNotchFilterFrequency": 0.0,
+         "VelocityBandwidth": 0.0,
+         "VelocityErrorTolerance": 0.0,
+         "VelocityFeedforward": 0.0,
+         "VelocityIntegratorBandwidth": 0.0,
+         "VelocityIntegratorHold": 0
+        }
+       }
+      Children:
+      - Name: AccelerationFeedforward
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "AccelerationFeedforward"
+      - Name: AdaptiveTuningConfiguration
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "AdaptiveTuningConfiguration"
+      - Name: LoadObserverBandwidth
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "LoadObserverBandwidth"
+      - Name: LoadObserverConfiguration
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "LoadObserverConfiguration"
+      - Name: PositionBandwidth
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PositionBandwidth"
+      - Name: PositionErrorTolerance
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PositionErrorTolerance"
+      - Name: PositionIntegratorBandwidth
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PositionIntegratorBandwidth"
+      - Name: PositionIntegratorHold
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PositionIntegratorHold"
+      - Name: TorqueLimitNegative
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TorqueLimitNegative"
+      - Name: TorqueLimitPositive
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TorqueLimitPositive"
+      - Name: TorqueLowPassFilterBandwidth
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TorqueLowPassFilterBandwidth"
+      - Name: TorqueNotchFilterFrequency
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TorqueNotchFilterFrequency"
+      - Name: VelocityBandwidth
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VelocityBandwidth"
+      - Name: VelocityErrorTolerance
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VelocityErrorTolerance"
+      - Name: VelocityFeedforward
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VelocityFeedforward"
+      - Name: VelocityIntegratorBandwidth
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VelocityIntegratorBandwidth"
+      - Name: VelocityIntegratorHold
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VelocityIntegratorHold"
+    - Name: GeometriCfg
+      Type: raT_Rbt_UDT_Cfg_Geometry
+      DataType: raT_Rbt_UDT_Cfg_Geometry
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ab2e96ce7c087bb230108398ac8a0039",
+         "Namespace": 10
+        },
+        "Body": {
+         "_1": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+        }
+       }
+      Children:
+      - Name: _1
+        Type: RAEtherNetIPTag
+        DataType: Float
+        ValueRank: OneDimension
+        ArrayDimensions: [10]
+        Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "_1"
+    - Name: HomeCfg
+      Type: raT_Rbt_UDT_Cfg_Home
+      DataType: raT_Rbt_UDT_Cfg_Home
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+         "Namespace": 10
+        },
+        "Body": {
+         "Acceleration": 0.0,
+         "Deceleration": 0.0,
+         "Direction": 0,
+         "HomeTorqueLevel": 0.0,
+         "MaxTravel": 0.0,
+         "Mode": 0,
+         "Offset": 0.0,
+         "Position": 0.0,
+         "PositionError": 0.0,
+         "ReturnSpeed": 0.0,
+         "Sequence": 0,
+         "Speed": 0.0,
+         "SwitchConf": 0
+        }
+       }
+      Children:
+      - Name: Acceleration
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Acceleration"
+      - Name: Deceleration
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Deceleration"
+      - Name: Direction
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Direction"
+      - Name: HomeTorqueLevel
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HomeTorqueLevel"
+      - Name: MaxTravel
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "MaxTravel"
+      - Name: Mode
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Mode"
+      - Name: Offset
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Offset"
+      - Name: Position
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Position"
+      - Name: PositionError
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PositionError"
+      - Name: ReturnSpeed
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ReturnSpeed"
+      - Name: Sequence
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sequence"
+      - Name: Speed
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Speed"
+      - Name: SwitchConf
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "SwitchConf"
+    - Name: JogCartesianCfg
+      Type: raT_Rbt_UDT_Cfg_Jog
+      DataType: raT_Rbt_UDT_Cfg_Jog
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5e8de5773e280f8ddb21b80713722eb2",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelRate": 0.0,
+         "DecelRate": 0.0,
+         "Jerk": 0.0,
+         "Speed": 0.0
+        }
+       }
+      Children:
+      - Name: AccelRate
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "AccelRate"
+      - Name: DecelRate
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DecelRate"
+      - Name: Jerk
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Jerk"
+      - Name: Speed
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Speed"
+    - Name: JogJointCfg
+      Type: raT_Rbt_UDT_Cfg_Jog
+      DataType: raT_Rbt_UDT_Cfg_Jog
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5e8de5773e280f8ddb21b80713722eb2",
+         "Namespace": 10
+        },
+        "Body": {
+         "AccelRate": 0.0,
+         "DecelRate": 0.0,
+         "Jerk": 0.0,
+         "Speed": 0.0
+        }
+       }
+      Children:
+      - Name: AccelRate
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "AccelRate"
+      - Name: DecelRate
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DecelRate"
+      - Name: Jerk
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Jerk"
+      - Name: Speed
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Speed"
+    - Name: LimitCartesianCfg
+      Type: raT_Rbt_UDT_Cfg_Limit
+      DataType: raT_Rbt_UDT_Cfg_Limit
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+         "Namespace": 10
+        },
+        "Body": {
+         "Disable": false,
+         "Max": 0.0,
+         "Min": 0.0
+        }
+       }
+      Children:
+      - Name: Disable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Disable"
+      - Name: Max
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Max"
+      - Name: Min
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Min"
+    - Name: LimitJointCfg
+      Type: raT_Rbt_UDT_Cfg_Limit
+      DataType: raT_Rbt_UDT_Cfg_Limit
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+         "Namespace": 10
+        },
+        "Body": {
+         "Disable": false,
+         "Max": 0.0,
+         "Min": 0.0
+        }
+       }
+      Children:
+      - Name: Disable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Disable"
+      - Name: Max
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Max"
+      - Name: Min
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Min"
+    - Name: RedefinePosCfg
+      Type: raT_Rbt_UDT_Cfg_RedefinePos
+      DataType: raT_Rbt_UDT_Cfg_RedefinePos
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "1a448bdbd618911b9ad7c0b441e31569",
+         "Namespace": 10
+        },
+        "Body": {
+         "Position": 0.0,
+         "PositionSelect": 0,
+         "Type": 0
+        }
+       }
+      Children:
+      - Name: Position
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Position"
+      - Name: PositionSelect
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PositionSelect"
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Type"
+    - Name: StopCfg
+      Type: raT_Rbt_UDT_Cfg_StopAbort
+      DataType: raT_Rbt_UDT_Cfg_StopAbort
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+         "Namespace": 10
+        },
+        "Body": {
+         "DecelRate": 0.0,
+         "Jerk": 0.0
+        }
+       }
+      Children:
+      - Name: DecelRate
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DecelRate"
+      - Name: Jerk
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Jerk"
+    - Name: Toolframe
+      Type: POSITION_DATA
+      DataType: POSITION_DATA
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "2bf0bb81befff817fcaae526f2de419a",
+         "Namespace": 10
+        },
+        "Body": {
+         "ID": 0,
+         "Rx": 0.0,
+         "Ry": 0.0,
+         "Rz": 0.0,
+         "X": 0.0,
+         "Y": 0.0,
+         "Z": 0.0
+        }
+       }
+      Children:
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Rx
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Rx"
+      - Name: Ry
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Ry"
+      - Name: Rz
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Rz"
+      - Name: X
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "X"
+      - Name: Y
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Y"
+      - Name: Z
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Z"
+    - Name: Workframe
+      Type: POSITION_DATA
+      DataType: POSITION_DATA
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "2bf0bb81befff817fcaae526f2de419a",
+         "Namespace": 10
+        },
+        "Body": {
+         "ID": 0,
+         "Rx": 0.0,
+         "Ry": 0.0,
+         "Rz": 0.0,
+         "X": 0.0,
+         "Y": 0.0,
+         "Z": 0.0
+        }
+       }
+      Children:
+      - Name: ID
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ID"
+      - Name: Rx
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Rx"
+      - Name: Ry
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Ry"
+      - Name: Rz
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Rz"
+      - Name: X
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "X"
+      - Name: Y
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Y"
+      - Name: Z
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Z"
+  - Name: Sts
+    Type: raT_Rbt_UDT_RH_Sts
+    DataType: raT_Rbt_UDT_RH_Sts
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ee545d2071369fec4a9b648cb6d62483",
+       "Namespace": 10
+      },
+      "Body": {
+       "ActiveCartesianAxes": 0,
+       "ActiveHomig": false,
+       "ActiveJointAxes": 0,
+       "AllAxesAborting": false,
+       "AllAxesDisabled": false,
+       "AllAxesEnabled": false,
+       "AllAxesHomed": false,
+       "AllAxesStopping": false,
+       "AllBrakesReleased": false,
+       "AllCartesianReadyForJog": false,
+       "AllJointReadyForEnable": false,
+       "AllJointReadyForHoming": false,
+       "AllJointReadyForJog": false,
+       "AxisHomed": 0,
+       "BrakeControl": false,
+       "CartesianAxisActualPosition": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "CartesianAxisActualVelocity": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "ExternalMotion": false,
+       "FaultCode": 0,
+       "Faulted": false,
+       "FaultExtendedCode": 0,
+       "FaultType": 0,
+       "HmiControlInhibited": false,
+       "HmiTab": 0,
+       "Idle": false,
+       "JogCartesian": false,
+       "JogJoint": false,
+       "JointDiagnostic": ["","","","","",""],
+       "JointsAxisActualPosition": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "JointsAxisActualVelocity": [0.0,0.0,0.0,0.0,0.0,0.0],
+       "NoMotion": false,
+       "NotReadyForOpMode": false,
+       "PassiveHomig": false,
+       "ReadGainsDone": 0,
+       "RobotDynamics": {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "6534dcf31783c54c8ed788465a6c6723",
+         "Namespace": 10
+        },
+        "Body": {
+         "VectorAccel": 0.0,
+         "VectorDecel": 0.0,
+         "VectorVelocity": 0.0
+        }
+       },
+       "SetGainsDone": 0,
+       "SingleBrakesReleased": 0,
+       "State": 0,
+       "ToolframeChangeEnabled": false,
+       "ToolframeID": 0,
+       "TransformEnabled": false,
+       "UploadConfigurationOK": false,
+       "WorkframeChangeEnabled": false,
+       "WorkframeID": 0,
+       "ZeroSpeed": false
+      }
+     }
+    Children:
+    - Name: ActiveCartesianAxes
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ActiveCartesianAxes"
+    - Name: ActiveHomig
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ActiveHomig"
+    - Name: ActiveJointAxes
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ActiveJointAxes"
+    - Name: AllAxesAborting
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllAxesAborting"
+    - Name: AllAxesDisabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllAxesDisabled"
+    - Name: AllAxesEnabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllAxesEnabled"
+    - Name: AllAxesHomed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllAxesHomed"
+    - Name: AllAxesStopping
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllAxesStopping"
+    - Name: AllBrakesReleased
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllBrakesReleased"
+    - Name: AllCartesianReadyForJog
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllCartesianReadyForJog"
+    - Name: AllJointReadyForEnable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllJointReadyForEnable"
+    - Name: AllJointReadyForHoming
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllJointReadyForHoming"
+    - Name: AllJointReadyForJog
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AllJointReadyForJog"
+    - Name: AxisHomed
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AxisHomed"
+    - Name: BrakeControl
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "BrakeControl"
+    - Name: CartesianAxisActualPosition
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CartesianAxisActualPosition"
+    - Name: CartesianAxisActualVelocity
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CartesianAxisActualVelocity"
+    - Name: ExternalMotion
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ExternalMotion"
+    - Name: FaultCode
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FaultCode"
+    - Name: Faulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Faulted"
+    - Name: FaultExtendedCode
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FaultExtendedCode"
+    - Name: FaultType
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FaultType"
+    - Name: HmiControlInhibited
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HmiControlInhibited"
+    - Name: HmiTab
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HmiTab"
+    - Name: Idle
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Idle"
+    - Name: JogCartesian
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "JogCartesian"
+    - Name: JogJoint
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "JogJoint"
+    - Name: JointDiagnostic
+      Type: RAEtherNetIPTag
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: ["","","","","",""]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "JointDiagnostic"
+    - Name: JointsAxisActualPosition
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "JointsAxisActualPosition"
+    - Name: JointsAxisActualVelocity
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "JointsAxisActualVelocity"
+    - Name: NoMotion
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "NoMotion"
+    - Name: NotReadyForOpMode
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "NotReadyForOpMode"
+    - Name: PassiveHomig
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PassiveHomig"
+    - Name: ReadGainsDone
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ReadGainsDone"
+    - Name: RobotDynamics
+      Type: raT_Rbt_UDT_Dynamic
+      DataType: raT_Rbt_UDT_Dynamic
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "6534dcf31783c54c8ed788465a6c6723",
+         "Namespace": 10
+        },
+        "Body": {
+         "VectorAccel": 0.0,
+         "VectorDecel": 0.0,
+         "VectorVelocity": 0.0
+        }
+       }
+      Children:
+      - Name: VectorAccel
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VectorAccel"
+      - Name: VectorDecel
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VectorDecel"
+      - Name: VectorVelocity
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "VectorVelocity"
+    - Name: SetGainsDone
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetGainsDone"
+    - Name: SingleBrakesReleased
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SingleBrakesReleased"
+    - Name: State
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "State"
+    - Name: ToolframeChangeEnabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ToolframeChangeEnabled"
+    - Name: ToolframeID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ToolframeID"
+    - Name: TransformEnabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TransformEnabled"
+    - Name: UploadConfigurationOK
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UploadConfigurationOK"
+    - Name: WorkframeChangeEnabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WorkframeChangeEnabled"
+    - Name: WorkframeID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "WorkframeID"
+    - Name: ZeroSpeed
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ZeroSpeed"
+- Name: raT_Rbt_UDT_RH_Cmd
+  Id: g=9d627798af97af594a26884a5baff67e
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_RH_Cmd
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c13cb184e56ff2020e1acf6d949cec3c",
+     "Namespace": 10
+    },
+    "Body": {
+     "AbortAllAxes": false,
+     "ChangeToolframe": false,
+     "ChangeWorkframe": false,
+     "HmiInhibitControl": false,
+     "HomeAllAxes": false,
+     "HomeSingleAxis": 0,
+     "Initialize": false,
+     "JogAxesCartesian": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "97f41ce53bce3a979089ead14b293c83",
+       "Namespace": 10
+      },
+      "Body": {
+       "Neg": false,
+       "Pos": false
+      }
+     },
+     "JogAxesJoints": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "97f41ce53bce3a979089ead14b293c83",
+       "Namespace": 10
+      },
+      "Body": {
+       "Neg": false,
+       "Pos": false
+      }
+     },
+     "OpMode": 0,
+     "ReadAllGains": false,
+     "ReadSingleGains": 0,
+     "RedefinePositionJointAxes": 0,
+     "ReleaseAllBrakes": false,
+     "ReleaseSingleAxisBrake": 0,
+     "Reset": false,
+     "SetAllGains": false,
+     "SetSingleGains": 0,
+     "StopAllAxes": false,
+     "ToolFrameId": 0,
+     "UploadConfiguration": false,
+     "WorkframeId": 0
+    }
+   }
+  Children:
+  - Name: AbortAllAxes
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AbortAllAxes"
+  - Name: ChangeToolframe
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ChangeToolframe"
+  - Name: ChangeWorkframe
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ChangeWorkframe"
+  - Name: HmiInhibitControl
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HmiInhibitControl"
+  - Name: HomeAllAxes
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HomeAllAxes"
+  - Name: HomeSingleAxis
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HomeSingleAxis"
+  - Name: Initialize
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Initialize"
+  - Name: JogAxesCartesian
+    Type: raT_Rbt_UDT_Jog
+    DataType: raT_Rbt_UDT_Jog
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "97f41ce53bce3a979089ead14b293c83",
+       "Namespace": 10
+      },
+      "Body": {
+       "Neg": false,
+       "Pos": false
+      }
+     }
+    Children:
+    - Name: Neg
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Neg"
+    - Name: Pos
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pos"
+  - Name: JogAxesJoints
+    Type: raT_Rbt_UDT_Jog
+    DataType: raT_Rbt_UDT_Jog
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "97f41ce53bce3a979089ead14b293c83",
+       "Namespace": 10
+      },
+      "Body": {
+       "Neg": false,
+       "Pos": false
+      }
+     }
+    Children:
+    - Name: Neg
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Neg"
+    - Name: Pos
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Pos"
+  - Name: OpMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OpMode"
+  - Name: ReadAllGains
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ReadAllGains"
+  - Name: ReadSingleGains
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ReadSingleGains"
+  - Name: RedefinePositionJointAxes
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RedefinePositionJointAxes"
+  - Name: ReleaseAllBrakes
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ReleaseAllBrakes"
+  - Name: ReleaseSingleAxisBrake
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ReleaseSingleAxisBrake"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reset"
+  - Name: SetAllGains
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetAllGains"
+  - Name: SetSingleGains
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetSingleGains"
+  - Name: StopAllAxes
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "StopAllAxes"
+  - Name: ToolFrameId
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ToolFrameId"
+  - Name: UploadConfiguration
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UploadConfiguration"
+  - Name: WorkframeId
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "WorkframeId"
+- Name: raT_Rbt_UDT_Cfg_Limit
+  Id: g=44f89f39ce6691453a0f5076e243de3c
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_Limit
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+     "Namespace": 10
+    },
+    "Body": {
+     "Disable": false,
+     "Max": 0.0,
+     "Min": 0.0
+    }
+   }
+  Children:
+  - Name: Disable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Disable"
+  - Name: Max
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Max"
+  - Name: Min
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Min"
+- Name: raT_Rbt_UDT_Cfg_Home
+  Id: g=16995138c6346eab4bc82ba031db61d5
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_Home
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+     "Namespace": 10
+    },
+    "Body": {
+     "Acceleration": 0.0,
+     "Deceleration": 0.0,
+     "Direction": 0,
+     "HomeTorqueLevel": 0.0,
+     "MaxTravel": 0.0,
+     "Mode": 0,
+     "Offset": 0.0,
+     "Position": 0.0,
+     "PositionError": 0.0,
+     "ReturnSpeed": 0.0,
+     "Sequence": 0,
+     "Speed": 0.0,
+     "SwitchConf": 0
+    }
+   }
+  Children:
+  - Name: Acceleration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Acceleration"
+  - Name: Deceleration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Deceleration"
+  - Name: Direction
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Direction"
+  - Name: HomeTorqueLevel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HomeTorqueLevel"
+  - Name: MaxTravel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MaxTravel"
+  - Name: Mode
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mode"
+  - Name: Offset
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Offset"
+  - Name: Position
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Position"
+  - Name: PositionError
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PositionError"
+  - Name: ReturnSpeed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ReturnSpeed"
+  - Name: Sequence
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sequence"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: SwitchConf
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SwitchConf"
+- Name: raT_Rbt_UDT_Cfg_StopAbort
+  Id: g=bb5677c6242a0ce9be9750ebcb8477ef
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_StopAbort
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+     "Namespace": 10
+    },
+    "Body": {
+     "DecelRate": 0.0,
+     "Jerk": 0.0
+    }
+   }
+  Children:
+  - Name: DecelRate
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DecelRate"
+  - Name: Jerk
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Jerk"
+- Name: raT_Rbt_UDT_Dynamic
+  Id: g=77786a2ead9eebd1b6f23eb223923fa2
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Dynamic
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "6534dcf31783c54c8ed788465a6c6723",
+     "Namespace": 10
+    },
+    "Body": {
+     "VectorAccel": 0.0,
+     "VectorDecel": 0.0,
+     "VectorVelocity": 0.0
+    }
+   }
+  Children:
+  - Name: VectorAccel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VectorAccel"
+  - Name: VectorDecel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VectorDecel"
+  - Name: VectorVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VectorVelocity"
+- Name: raT_Rbt_UDT_Cfg_RedefinePos
+  Id: g=068a2d30e0797ebe940cb18634ecff7c
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_RedefinePos
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "1a448bdbd618911b9ad7c0b441e31569",
+     "Namespace": 10
+    },
+    "Body": {
+     "Position": 0.0,
+     "PositionSelect": 0,
+     "Type": 0
+    }
+   }
+  Children:
+  - Name: Position
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Position"
+  - Name: PositionSelect
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PositionSelect"
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Type"
+- Name: raT_Rbt_UDT_RH_Par
+  Id: g=cfc3be67390e039400de846e0c07fb00
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_RH_Par
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "688c5e15178fcb9ef6cd67d2c0d96753",
+     "Namespace": 10
+    },
+    "Body": {
+     "AbortCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+       "Namespace": 10
+      },
+      "Body": {
+       "DecelRate": 0.0,
+       "Jerk": 0.0
+      }
+     },
+     "GainsCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e1b5eb863124d1f382086b59c9e948fc",
+       "Namespace": 10
+      },
+      "Body": {
+       "AccelerationFeedforward": 0.0,
+       "AdaptiveTuningConfiguration": 0,
+       "LoadObserverBandwidth": 0.0,
+       "LoadObserverConfiguration": 0,
+       "PositionBandwidth": 0.0,
+       "PositionErrorTolerance": 0.0,
+       "PositionIntegratorBandwidth": 0.0,
+       "PositionIntegratorHold": 0,
+       "TorqueLimitNegative": 0.0,
+       "TorqueLimitPositive": 0.0,
+       "TorqueLowPassFilterBandwidth": 0.0,
+       "TorqueNotchFilterFrequency": 0.0,
+       "VelocityBandwidth": 0.0,
+       "VelocityErrorTolerance": 0.0,
+       "VelocityFeedforward": 0.0,
+       "VelocityIntegratorBandwidth": 0.0,
+       "VelocityIntegratorHold": 0
+      }
+     },
+     "GeometriCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ab2e96ce7c087bb230108398ac8a0039",
+       "Namespace": 10
+      },
+      "Body": {
+       "_1": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      }
+     },
+     "HomeCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+       "Namespace": 10
+      },
+      "Body": {
+       "Acceleration": 0.0,
+       "Deceleration": 0.0,
+       "Direction": 0,
+       "HomeTorqueLevel": 0.0,
+       "MaxTravel": 0.0,
+       "Mode": 0,
+       "Offset": 0.0,
+       "Position": 0.0,
+       "PositionError": 0.0,
+       "ReturnSpeed": 0.0,
+       "Sequence": 0,
+       "Speed": 0.0,
+       "SwitchConf": 0
+      }
+     },
+     "JogCartesianCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "5e8de5773e280f8ddb21b80713722eb2",
+       "Namespace": 10
+      },
+      "Body": {
+       "AccelRate": 0.0,
+       "DecelRate": 0.0,
+       "Jerk": 0.0,
+       "Speed": 0.0
+      }
+     },
+     "JogJointCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "5e8de5773e280f8ddb21b80713722eb2",
+       "Namespace": 10
+      },
+      "Body": {
+       "AccelRate": 0.0,
+       "DecelRate": 0.0,
+       "Jerk": 0.0,
+       "Speed": 0.0
+      }
+     },
+     "LimitCartesianCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+       "Namespace": 10
+      },
+      "Body": {
+       "Disable": false,
+       "Max": 0.0,
+       "Min": 0.0
+      }
+     },
+     "LimitJointCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+       "Namespace": 10
+      },
+      "Body": {
+       "Disable": false,
+       "Max": 0.0,
+       "Min": 0.0
+      }
+     },
+     "RedefinePosCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "1a448bdbd618911b9ad7c0b441e31569",
+       "Namespace": 10
+      },
+      "Body": {
+       "Position": 0.0,
+       "PositionSelect": 0,
+       "Type": 0
+      }
+     },
+     "StopCfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+       "Namespace": 10
+      },
+      "Body": {
+       "DecelRate": 0.0,
+       "Jerk": 0.0
+      }
+     },
+     "Toolframe": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2bf0bb81befff817fcaae526f2de419a",
+       "Namespace": 10
+      },
+      "Body": {
+       "ID": 0,
+       "Rx": 0.0,
+       "Ry": 0.0,
+       "Rz": 0.0,
+       "X": 0.0,
+       "Y": 0.0,
+       "Z": 0.0
+      }
+     },
+     "Workframe": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2bf0bb81befff817fcaae526f2de419a",
+       "Namespace": 10
+      },
+      "Body": {
+       "ID": 0,
+       "Rx": 0.0,
+       "Ry": 0.0,
+       "Rz": 0.0,
+       "X": 0.0,
+       "Y": 0.0,
+       "Z": 0.0
+      }
+     }
+    }
+   }
+  Children:
+  - Name: AbortCfg
+    Type: raT_Rbt_UDT_Cfg_StopAbort
+    DataType: raT_Rbt_UDT_Cfg_StopAbort
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+       "Namespace": 10
+      },
+      "Body": {
+       "DecelRate": 0.0,
+       "Jerk": 0.0
+      }
+     }
+    Children:
+    - Name: DecelRate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DecelRate"
+    - Name: Jerk
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Jerk"
+  - Name: GainsCfg
+    Type: raT_Rbt_UDT_Cfg_Gain
+    DataType: raT_Rbt_UDT_Cfg_Gain
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e1b5eb863124d1f382086b59c9e948fc",
+       "Namespace": 10
+      },
+      "Body": {
+       "AccelerationFeedforward": 0.0,
+       "AdaptiveTuningConfiguration": 0,
+       "LoadObserverBandwidth": 0.0,
+       "LoadObserverConfiguration": 0,
+       "PositionBandwidth": 0.0,
+       "PositionErrorTolerance": 0.0,
+       "PositionIntegratorBandwidth": 0.0,
+       "PositionIntegratorHold": 0,
+       "TorqueLimitNegative": 0.0,
+       "TorqueLimitPositive": 0.0,
+       "TorqueLowPassFilterBandwidth": 0.0,
+       "TorqueNotchFilterFrequency": 0.0,
+       "VelocityBandwidth": 0.0,
+       "VelocityErrorTolerance": 0.0,
+       "VelocityFeedforward": 0.0,
+       "VelocityIntegratorBandwidth": 0.0,
+       "VelocityIntegratorHold": 0
+      }
+     }
+    Children:
+    - Name: AccelerationFeedforward
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AccelerationFeedforward"
+    - Name: AdaptiveTuningConfiguration
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AdaptiveTuningConfiguration"
+    - Name: LoadObserverBandwidth
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LoadObserverBandwidth"
+    - Name: LoadObserverConfiguration
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LoadObserverConfiguration"
+    - Name: PositionBandwidth
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PositionBandwidth"
+    - Name: PositionErrorTolerance
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PositionErrorTolerance"
+    - Name: PositionIntegratorBandwidth
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PositionIntegratorBandwidth"
+    - Name: PositionIntegratorHold
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PositionIntegratorHold"
+    - Name: TorqueLimitNegative
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TorqueLimitNegative"
+    - Name: TorqueLimitPositive
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TorqueLimitPositive"
+    - Name: TorqueLowPassFilterBandwidth
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TorqueLowPassFilterBandwidth"
+    - Name: TorqueNotchFilterFrequency
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TorqueNotchFilterFrequency"
+    - Name: VelocityBandwidth
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VelocityBandwidth"
+    - Name: VelocityErrorTolerance
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VelocityErrorTolerance"
+    - Name: VelocityFeedforward
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VelocityFeedforward"
+    - Name: VelocityIntegratorBandwidth
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VelocityIntegratorBandwidth"
+    - Name: VelocityIntegratorHold
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VelocityIntegratorHold"
+  - Name: GeometriCfg
+    Type: raT_Rbt_UDT_Cfg_Geometry
+    DataType: raT_Rbt_UDT_Cfg_Geometry
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ab2e96ce7c087bb230108398ac8a0039",
+       "Namespace": 10
+      },
+      "Body": {
+       "_1": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      }
+     }
+    Children:
+    - Name: _1
+      Type: RAEtherNetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "_1"
+  - Name: HomeCfg
+    Type: raT_Rbt_UDT_Cfg_Home
+    DataType: raT_Rbt_UDT_Cfg_Home
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "1dfdd6f9db8cb112ce245b679ab3f02d",
+       "Namespace": 10
+      },
+      "Body": {
+       "Acceleration": 0.0,
+       "Deceleration": 0.0,
+       "Direction": 0,
+       "HomeTorqueLevel": 0.0,
+       "MaxTravel": 0.0,
+       "Mode": 0,
+       "Offset": 0.0,
+       "Position": 0.0,
+       "PositionError": 0.0,
+       "ReturnSpeed": 0.0,
+       "Sequence": 0,
+       "Speed": 0.0,
+       "SwitchConf": 0
+      }
+     }
+    Children:
+    - Name: Acceleration
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Acceleration"
+    - Name: Deceleration
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Deceleration"
+    - Name: Direction
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Direction"
+    - Name: HomeTorqueLevel
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HomeTorqueLevel"
+    - Name: MaxTravel
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MaxTravel"
+    - Name: Mode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Mode"
+    - Name: Offset
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Offset"
+    - Name: Position
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Position"
+    - Name: PositionError
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PositionError"
+    - Name: ReturnSpeed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ReturnSpeed"
+    - Name: Sequence
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Sequence"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Speed"
+    - Name: SwitchConf
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SwitchConf"
+  - Name: JogCartesianCfg
+    Type: raT_Rbt_UDT_Cfg_Jog
+    DataType: raT_Rbt_UDT_Cfg_Jog
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "5e8de5773e280f8ddb21b80713722eb2",
+       "Namespace": 10
+      },
+      "Body": {
+       "AccelRate": 0.0,
+       "DecelRate": 0.0,
+       "Jerk": 0.0,
+       "Speed": 0.0
+      }
+     }
+    Children:
+    - Name: AccelRate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AccelRate"
+    - Name: DecelRate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DecelRate"
+    - Name: Jerk
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Jerk"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Speed"
+  - Name: JogJointCfg
+    Type: raT_Rbt_UDT_Cfg_Jog
+    DataType: raT_Rbt_UDT_Cfg_Jog
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "5e8de5773e280f8ddb21b80713722eb2",
+       "Namespace": 10
+      },
+      "Body": {
+       "AccelRate": 0.0,
+       "DecelRate": 0.0,
+       "Jerk": 0.0,
+       "Speed": 0.0
+      }
+     }
+    Children:
+    - Name: AccelRate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AccelRate"
+    - Name: DecelRate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DecelRate"
+    - Name: Jerk
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Jerk"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Speed"
+  - Name: LimitCartesianCfg
+    Type: raT_Rbt_UDT_Cfg_Limit
+    DataType: raT_Rbt_UDT_Cfg_Limit
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+       "Namespace": 10
+      },
+      "Body": {
+       "Disable": false,
+       "Max": 0.0,
+       "Min": 0.0
+      }
+     }
+    Children:
+    - Name: Disable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Disable"
+    - Name: Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Max"
+    - Name: Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Min"
+  - Name: LimitJointCfg
+    Type: raT_Rbt_UDT_Cfg_Limit
+    DataType: raT_Rbt_UDT_Cfg_Limit
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "913e6c7fb62b15b4d28f8b1e6ee9c61c",
+       "Namespace": 10
+      },
+      "Body": {
+       "Disable": false,
+       "Max": 0.0,
+       "Min": 0.0
+      }
+     }
+    Children:
+    - Name: Disable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Disable"
+    - Name: Max
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Max"
+    - Name: Min
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Min"
+  - Name: RedefinePosCfg
+    Type: raT_Rbt_UDT_Cfg_RedefinePos
+    DataType: raT_Rbt_UDT_Cfg_RedefinePos
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "1a448bdbd618911b9ad7c0b441e31569",
+       "Namespace": 10
+      },
+      "Body": {
+       "Position": 0.0,
+       "PositionSelect": 0,
+       "Type": 0
+      }
+     }
+    Children:
+    - Name: Position
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Position"
+    - Name: PositionSelect
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PositionSelect"
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Type"
+  - Name: StopCfg
+    Type: raT_Rbt_UDT_Cfg_StopAbort
+    DataType: raT_Rbt_UDT_Cfg_StopAbort
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e4025b0192b25574ec09db05dbb1c7bb",
+       "Namespace": 10
+      },
+      "Body": {
+       "DecelRate": 0.0,
+       "Jerk": 0.0
+      }
+     }
+    Children:
+    - Name: DecelRate
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DecelRate"
+    - Name: Jerk
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Jerk"
+  - Name: Toolframe
+    Type: POSITION_DATA
+    DataType: POSITION_DATA
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2bf0bb81befff817fcaae526f2de419a",
+       "Namespace": 10
+      },
+      "Body": {
+       "ID": 0,
+       "Rx": 0.0,
+       "Ry": 0.0,
+       "Rz": 0.0,
+       "X": 0.0,
+       "Y": 0.0,
+       "Z": 0.0
+      }
+     }
+    Children:
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Rx
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Rx"
+    - Name: Ry
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ry"
+    - Name: Rz
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Rz"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "X"
+    - Name: Y
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Y"
+    - Name: Z
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Z"
+  - Name: Workframe
+    Type: POSITION_DATA
+    DataType: POSITION_DATA
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "2bf0bb81befff817fcaae526f2de419a",
+       "Namespace": 10
+      },
+      "Body": {
+       "ID": 0,
+       "Rx": 0.0,
+       "Ry": 0.0,
+       "Rz": 0.0,
+       "X": 0.0,
+       "Y": 0.0,
+       "Z": 0.0
+      }
+     }
+    Children:
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ID"
+    - Name: Rx
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Rx"
+    - Name: Ry
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Ry"
+    - Name: Rz
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Rz"
+    - Name: X
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "X"
+    - Name: Y
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Y"
+    - Name: Z
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Z"
+- Name: raT_Rbt_UDT_RH_Sts
+  Id: g=bfd1954f4a21f28e6e2638911daf6738
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_RH_Sts
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ee545d2071369fec4a9b648cb6d62483",
+     "Namespace": 10
+    },
+    "Body": {
+     "ActiveCartesianAxes": 0,
+     "ActiveHomig": false,
+     "ActiveJointAxes": 0,
+     "AllAxesAborting": false,
+     "AllAxesDisabled": false,
+     "AllAxesEnabled": false,
+     "AllAxesHomed": false,
+     "AllAxesStopping": false,
+     "AllBrakesReleased": false,
+     "AllCartesianReadyForJog": false,
+     "AllJointReadyForEnable": false,
+     "AllJointReadyForHoming": false,
+     "AllJointReadyForJog": false,
+     "AxisHomed": 0,
+     "BrakeControl": false,
+     "CartesianAxisActualPosition": [0.0,0.0,0.0,0.0,0.0,0.0],
+     "CartesianAxisActualVelocity": [0.0,0.0,0.0,0.0,0.0,0.0],
+     "ExternalMotion": false,
+     "FaultCode": 0,
+     "Faulted": false,
+     "FaultExtendedCode": 0,
+     "FaultType": 0,
+     "HmiControlInhibited": false,
+     "HmiTab": 0,
+     "Idle": false,
+     "JogCartesian": false,
+     "JogJoint": false,
+     "JointDiagnostic": ["","","","","",""],
+     "JointsAxisActualPosition": [0.0,0.0,0.0,0.0,0.0,0.0],
+     "JointsAxisActualVelocity": [0.0,0.0,0.0,0.0,0.0,0.0],
+     "NoMotion": false,
+     "NotReadyForOpMode": false,
+     "PassiveHomig": false,
+     "ReadGainsDone": 0,
+     "RobotDynamics": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "6534dcf31783c54c8ed788465a6c6723",
+       "Namespace": 10
+      },
+      "Body": {
+       "VectorAccel": 0.0,
+       "VectorDecel": 0.0,
+       "VectorVelocity": 0.0
+      }
+     },
+     "SetGainsDone": 0,
+     "SingleBrakesReleased": 0,
+     "State": 0,
+     "ToolframeChangeEnabled": false,
+     "ToolframeID": 0,
+     "TransformEnabled": false,
+     "UploadConfigurationOK": false,
+     "WorkframeChangeEnabled": false,
+     "WorkframeID": 0,
+     "ZeroSpeed": false
+    }
+   }
+  Children:
+  - Name: ActiveCartesianAxes
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActiveCartesianAxes"
+  - Name: ActiveHomig
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActiveHomig"
+  - Name: ActiveJointAxes
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActiveJointAxes"
+  - Name: AllAxesAborting
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllAxesAborting"
+  - Name: AllAxesDisabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllAxesDisabled"
+  - Name: AllAxesEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllAxesEnabled"
+  - Name: AllAxesHomed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllAxesHomed"
+  - Name: AllAxesStopping
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllAxesStopping"
+  - Name: AllBrakesReleased
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllBrakesReleased"
+  - Name: AllCartesianReadyForJog
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllCartesianReadyForJog"
+  - Name: AllJointReadyForEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllJointReadyForEnable"
+  - Name: AllJointReadyForHoming
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllJointReadyForHoming"
+  - Name: AllJointReadyForJog
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AllJointReadyForJog"
+  - Name: AxisHomed
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AxisHomed"
+  - Name: BrakeControl
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "BrakeControl"
+  - Name: CartesianAxisActualPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [6]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CartesianAxisActualPosition"
+  - Name: CartesianAxisActualVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [6]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CartesianAxisActualVelocity"
+  - Name: ExternalMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExternalMotion"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FaultCode"
+  - Name: Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Faulted"
+  - Name: FaultExtendedCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FaultExtendedCode"
+  - Name: FaultType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FaultType"
+  - Name: HmiControlInhibited
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HmiControlInhibited"
+  - Name: HmiTab
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HmiTab"
+  - Name: Idle
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Idle"
+  - Name: JogCartesian
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JogCartesian"
+  - Name: JogJoint
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JogJoint"
+  - Name: JointDiagnostic
+    Type: RAEtherNetIPTag
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [6]
+    Value: ["","","","","",""]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JointDiagnostic"
+  - Name: JointsAxisActualPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [6]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JointsAxisActualPosition"
+  - Name: JointsAxisActualVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [6]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "JointsAxisActualVelocity"
+  - Name: NoMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "NoMotion"
+  - Name: NotReadyForOpMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "NotReadyForOpMode"
+  - Name: PassiveHomig
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PassiveHomig"
+  - Name: ReadGainsDone
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ReadGainsDone"
+  - Name: RobotDynamics
+    Type: raT_Rbt_UDT_Dynamic
+    DataType: raT_Rbt_UDT_Dynamic
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "6534dcf31783c54c8ed788465a6c6723",
+       "Namespace": 10
+      },
+      "Body": {
+       "VectorAccel": 0.0,
+       "VectorDecel": 0.0,
+       "VectorVelocity": 0.0
+      }
+     }
+    Children:
+    - Name: VectorAccel
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VectorAccel"
+    - Name: VectorDecel
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VectorDecel"
+    - Name: VectorVelocity
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "VectorVelocity"
+  - Name: SetGainsDone
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetGainsDone"
+  - Name: SingleBrakesReleased
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SingleBrakesReleased"
+  - Name: State
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "State"
+  - Name: ToolframeChangeEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ToolframeChangeEnabled"
+  - Name: ToolframeID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ToolframeID"
+  - Name: TransformEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TransformEnabled"
+  - Name: UploadConfigurationOK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UploadConfigurationOK"
+  - Name: WorkframeChangeEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "WorkframeChangeEnabled"
+  - Name: WorkframeID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "WorkframeID"
+  - Name: ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ZeroSpeed"
+- Name: raT_Rbt_UDT_Cfg_Gain
+  Id: g=db7006b2730a60f15aeecf2e64f2ace5
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_Gain
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e1b5eb863124d1f382086b59c9e948fc",
+     "Namespace": 10
+    },
+    "Body": {
+     "AccelerationFeedforward": 0.0,
+     "AdaptiveTuningConfiguration": 0,
+     "LoadObserverBandwidth": 0.0,
+     "LoadObserverConfiguration": 0,
+     "PositionBandwidth": 0.0,
+     "PositionErrorTolerance": 0.0,
+     "PositionIntegratorBandwidth": 0.0,
+     "PositionIntegratorHold": 0,
+     "TorqueLimitNegative": 0.0,
+     "TorqueLimitPositive": 0.0,
+     "TorqueLowPassFilterBandwidth": 0.0,
+     "TorqueNotchFilterFrequency": 0.0,
+     "VelocityBandwidth": 0.0,
+     "VelocityErrorTolerance": 0.0,
+     "VelocityFeedforward": 0.0,
+     "VelocityIntegratorBandwidth": 0.0,
+     "VelocityIntegratorHold": 0
+    }
+   }
+  Children:
+  - Name: AccelerationFeedforward
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AccelerationFeedforward"
+  - Name: AdaptiveTuningConfiguration
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AdaptiveTuningConfiguration"
+  - Name: LoadObserverBandwidth
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LoadObserverBandwidth"
+  - Name: LoadObserverConfiguration
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LoadObserverConfiguration"
+  - Name: PositionBandwidth
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PositionBandwidth"
+  - Name: PositionErrorTolerance
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PositionErrorTolerance"
+  - Name: PositionIntegratorBandwidth
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PositionIntegratorBandwidth"
+  - Name: PositionIntegratorHold
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PositionIntegratorHold"
+  - Name: TorqueLimitNegative
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TorqueLimitNegative"
+  - Name: TorqueLimitPositive
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TorqueLimitPositive"
+  - Name: TorqueLowPassFilterBandwidth
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TorqueLowPassFilterBandwidth"
+  - Name: TorqueNotchFilterFrequency
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TorqueNotchFilterFrequency"
+  - Name: VelocityBandwidth
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VelocityBandwidth"
+  - Name: VelocityErrorTolerance
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VelocityErrorTolerance"
+  - Name: VelocityFeedforward
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VelocityFeedforward"
+  - Name: VelocityIntegratorBandwidth
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VelocityIntegratorBandwidth"
+  - Name: VelocityIntegratorHold
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VelocityIntegratorHold"
+- Name: raT_Rbt_UDT_Cfg_Jog
+  Id: g=d6a45bcb82bdff600a9d81b609df5959
+  Supertype: TagStructure
+  DataType: raT_Rbt_UDT_Cfg_Jog
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "5e8de5773e280f8ddb21b80713722eb2",
+     "Namespace": 10
+    },
+    "Body": {
+     "AccelRate": 0.0,
+     "DecelRate": 0.0,
+     "Jerk": 0.0,
+     "Speed": 0.0
+    }
+   }
+  Children:
+  - Name: AccelRate
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AccelRate"
+  - Name: DecelRate
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DecelRate"
+  - Name: Jerk
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Jerk"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+- Name: DYNAMICS_DATA
+  Id: g=851128f808da39f50f581fb23fe10913
+  Supertype: TagStructure
+  DataType: DYNAMICS_DATA
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "a67e0d5435958d38d84e5e6797ea4c3c",
+     "Namespace": 10
+    },
+    "Body": {
+     "Acceleration": 0.0,
+     "AccelerationJerk": 0.0,
+     "Deceleration": 0.0,
+     "DecelerationJerk": 0.0,
+     "OrientationAcceleration": 0.0,
+     "OrientationDeceleration": 0.0,
+     "OrientationSpeed": 0.0,
+     "Profile": 0,
+     "Speed": 0.0,
+     "TimeUnits": 0,
+     "UnitsMode": 0
+    }
+   }
+  Children:
+  - Name: Acceleration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Acceleration"
+  - Name: AccelerationJerk
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AccelerationJerk"
+  - Name: Deceleration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Deceleration"
+  - Name: DecelerationJerk
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DecelerationJerk"
+  - Name: OrientationAcceleration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OrientationAcceleration"
+  - Name: OrientationDeceleration
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OrientationDeceleration"
+  - Name: OrientationSpeed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OrientationSpeed"
+  - Name: Profile
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Profile"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: TimeUnits
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TimeUnits"
+  - Name: UnitsMode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnitsMode"
+- Name: PATH_DATA
+  Id: g=7a48891d7ec9eb7831e4b5c9eaf34c5b
+  Supertype: TagStructure
+  DataType: PATH_DATA
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "38e34fc1ad5b69902c2a60c31ad581d1",
+     "Namespace": 10
+    },
+    "Body": {
+     "CommandToleranceLinear": 0.0,
+     "InterpolationType": 0,
+     "MoveType": 0,
+     "Position": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],
+     "RobotConfiguration": 0,
+     "TerminationType": 0,
+     "TurnsCounters": [0,0,0,0]
+    }
+   }
+  Children:
+  - Name: CommandToleranceLinear
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CommandToleranceLinear"
+  - Name: InterpolationType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InterpolationType"
+  - Name: MoveType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MoveType"
+  - Name: Position
+    Type: RAEtherNetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [9]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Position"
+  - Name: RobotConfiguration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RobotConfiguration"
+  - Name: TerminationType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TerminationType"
+  - Name: TurnsCounters
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TurnsCounters"
+- Name: POSITION_DATA
+  Id: g=3425a251ab23ae2f92604479da4e76d6
+  Supertype: TagStructure
+  DataType: POSITION_DATA
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "2bf0bb81befff817fcaae526f2de419a",
+     "Namespace": 10
+    },
+    "Body": {
+     "ID": 0,
+     "Rx": 0.0,
+     "Ry": 0.0,
+     "Rz": 0.0,
+     "X": 0.0,
+     "Y": 0.0,
+     "Z": 0.0
+    }
+   }
+  Children:
+  - Name: ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ID"
+  - Name: Rx
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rx"
+  - Name: Ry
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ry"
+  - Name: Rz
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rz"
+  - Name: X
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "X"
+  - Name: Y
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Y"
+  - Name: Z
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Z"

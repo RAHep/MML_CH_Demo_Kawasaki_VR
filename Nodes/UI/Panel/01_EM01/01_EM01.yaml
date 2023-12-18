@@ -1,0 +1,28 @@
+Name: 01_EM01
+Type: FolderType
+Children:
+- Name: _01_EM01
+  Id: g=4520f34ef88db782ccca389aaad1bc57
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 3
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1200.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 700.0

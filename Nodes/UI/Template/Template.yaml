@@ -1,0 +1,6 @@
+Name: Template
+Type: FolderType
+Children:
+- File: RHL/RHL.yaml
+- File: Unit/Unit.yaml
+- File: 'Pop-Up/Pop-Up.yaml'

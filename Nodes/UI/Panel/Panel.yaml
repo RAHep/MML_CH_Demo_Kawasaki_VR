@@ -1,0 +1,6 @@
+Name: Panel
+Type: FolderType
+Children:
+- File: 00_Unit/00_Unit.yaml
+- File: 01_EM01/01_EM01.yaml
+- File: 02_EM02/02_EM02.yaml
